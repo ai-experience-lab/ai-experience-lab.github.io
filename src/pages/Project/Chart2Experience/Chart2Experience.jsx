@@ -21,7 +21,7 @@ function Chart2Experience() {
                 </div>
                 
                 <div className="links">
-                    <a href="https://chart2experience.github.io/" target="_blank" className="link">Project Website</a>
+                    <a href="https://chart2experience.github.io/" target="_blank" rel="noreferrer" className="link">Project Website</a>
                 </div>
                 
             </div>

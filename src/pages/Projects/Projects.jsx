@@ -231,7 +231,7 @@ function Projects() {
           This project was originally initiated by a undergraduate student Minwoo Kim, and now became an open-source
           project maintained and improved by other contributors in KAIST.
           <span className="link">
-            <a href="https://graduate-kaist.herokuapp.com/" target="_blank">Visit the site</a>
+            <a href="https://graduate-kaist.herokuapp.com/" target="_blank" rel="noreferrer">Visit the site</a>
           </span>
         </div> */}
 

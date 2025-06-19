@@ -9,7 +9,7 @@ function Publications() {
       <div className="subTitle">
         Check Tak Yeon Lee's Google Scholar page for the latest and older (-2021) publications
         <div className="roundedButton">
-          <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank">Google Scholar page</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank" rel="noreferrer">Google Scholar page</a>
 
         </div>
       </div>
@@ -21,7 +21,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://aclanthology.org/2024.lrec-main.1193/" target="_blank">
+                <a href="https://aclanthology.org/2024.lrec-main.1193/" target="_blank" rel="noreferrer">
                   RECIPE4U: Student-ChatGPT Interaction Dataset in EFL Writing Education
                 </a>
               </div>
@@ -38,7 +38,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-66336-9_44" target="_blank">
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-66336-9_44" target="_blank" rel="noreferrer">
                   Virfie: Enhancing Remote Togetherness with User-Created Scenarios for Virtual Group Selfie
                 </a>
               </div>
@@ -54,7 +54,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://arxiv.org/abs/2405.19691" target="_blank">
+                <a href="https://arxiv.org/abs/2405.19691" target="_blank" rel="noreferrer">
                 Designing Prompt Analytics Dashboards to Analyze Student-ChatGPT Interactions in EFL Writing
                 </a>
               </div>
@@ -70,7 +70,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241118049G/abstract" target="_blank">
+                <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241118049G/abstract" target="_blank" rel="noreferrer">
                 Understanding the Impact of Spatial Immersion in Web Data Stories
                 </a>
               </div>
@@ -86,7 +86,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank" rel="noreferrer">
                 Bridging Bond Beyond Life: Designing VR Memorial Space with Stakeholder Collaboration via Research through Design
                 </a>
               </div>
@@ -102,7 +102,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3720212" target="_blank">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3720212" target="_blank" rel="noreferrer">
                 LIGS: Developing an LLM-infused Game System for Emergent Narrative
                 </a>
               </div>
@@ -118,7 +118,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719932" target="_blank">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719932" target="_blank" rel="noreferrer">
                 WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment
                 </a>
               </div>
@@ -134,7 +134,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://arxiv.org/abs/2505.17374" target="_blank">
+                <a href="https://arxiv.org/abs/2505.17374" target="_blank" rel="noreferrer">
                 Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts
                 </a>
               </div>
@@ -171,7 +171,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://www.computer.org/csdl/proceedings-article/bigdata/2023/10386099/1TUOAe1Br1K" target="_blank">
+                <a href="https://www.computer.org/csdl/proceedings-article/bigdata/2023/10386099/1TUOAe1Br1K" target="_blank" rel="noreferrer">
                   Visual Insight Recommendation: From Ranking Insight Visualizations to Insight Types
                 </a>
               </div>
@@ -186,7 +186,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3543873.3587302" target="_blank">
+                <a href="https://dl.acm.org/doi/abs/10.1145/3543873.3587302" target="_blank" rel="noreferrer">
                   SpotLight: Visual Insight Recommendation
                 </a>
               </div>
@@ -203,7 +203,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a target="_blank" href="https://dl.acm.org/doi/10.1145/3573051.3596200">
+                <a target="_blank" rel="noreferrer" href="https://dl.acm.org/doi/10.1145/3573051.3596200">
                   RECIPE: How to Integrate ChatGPT into EFL Writing Education
                 </a>
               </div>
@@ -226,7 +226,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a target="_blank" href="https://dl.acm.org/doi/full/10.1145/3538703">
+                <a target="_blank" rel="noreferrer" href="https://dl.acm.org/doi/full/10.1145/3538703">
                   Personalized visualization recommendation
                 </a>
               </div>
@@ -243,7 +243,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a target="_blank" href="https://nips.cc/virtual/2022/workshop/50008">
+                <a target="_blank" rel="noreferrer" href="https://nips.cc/virtual/2022/workshop/50008">
                   Is It Really Useful?: An Observation Study of How Designers Use CLIP-based Image Generation For Moodboards
                 </a>
               </div>
@@ -260,7 +260,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3491101.3519767">
+                <a target="_blank" rel="noreferrer" href="https://dl.acm.org/doi/abs/10.1145/3491101.3519767">
                   Virfie: Virtual Group Selfie Station for Remote Togetherness
                 </a>
               </div>
@@ -282,7 +282,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">
+              <a target="_blank" rel="noreferrer" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">
               An Evaluation-Focused Framework for Visualization Recommendation Algorithms
               </a>
               </div>
@@ -302,7 +302,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" href="https://terpconnect.umd.edu/~xinq/Figure_captioning_WWW21.pdf">
+              <a target="_blank" rel="noreferrer" href="https://terpconnect.umd.edu/~xinq/Figure_captioning_WWW21.pdf">
                 Generating Accurate Caption Units for Figure Captioning
               </a>
 
@@ -321,7 +321,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" href="https://orcax.github.io/publications/">
+              <a target="_blank" rel="noreferrer" href="https://orcax.github.io/publications/">
               EXACTA: Explainable Column Annotation</a>
               </div>
               <div className="description">
@@ -338,7 +338,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" href="https://www.terpconnect.umd.edu/~xinq/Learning_to_Recommend_Vis_from_Data_KDD21.pdf">Learning to Recommend Visualizations from Data</a>
+              <a target="_blank" rel="noreferrer" href="https://www.terpconnect.umd.edu/~xinq/Learning_to_Recommend_Vis_from_Data_KDD21.pdf">Learning to Recommend Visualizations from Data</a>
               </div>
               <div className="description">
                 KDD '21: Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (ACM) Association for Computing Machinery, New York, NY, USA, 2792–2804.
@@ -355,7 +355,7 @@ function Publications() {
 
         <div className="year">Prior to 2021</div>
         <center>
-          <p>Check Tak Yeon Lee's <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank">Google Scholar page</a> for publications before 2021</p>
+          <p>Check Tak Yeon Lee's <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank" rel="noreferrer">Google Scholar page</a> for publications before 2021</p>
         </center>
       </div>
     </div>
