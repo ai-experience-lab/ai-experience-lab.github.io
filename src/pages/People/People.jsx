@@ -20,7 +20,7 @@ function People() {
     <h3>Current Members</h3>
     <ul className="people_list">
       <li>
-        <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} /></a>
+        <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} alt="tak_image"/></a>
         <div className="name">Tak Yeon, Lee</div>
         <div className="role">Assistant Professor</div>
         <div className="email">
@@ -31,7 +31,7 @@ function People() {
         </div>
       </li>
       <li>
-        <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer"><img src={seongyeomkim_image} /></a>
+        <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer"><img src={seongyeomkim_image} alt="seon_image"/></a>
         <div className="name">Seon Gyeom, Kim</div>
         <div className="role">PhD Student</div>
         <div className="email">
@@ -50,7 +50,7 @@ function People() {
         </div>
       </li>
       <li>
-      <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} /></a>
+      <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} alt="jaeyoung_image"/></a>
         <div className="name">JaeYoung, Choi</div>
         <div className="role">Master Student</div>
         <div className="email">
@@ -61,7 +61,7 @@ function People() {
         </div>
       </li>
       <li>
-      <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer"><img src={hyunlee_image} /></a>
+      <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer"><img src={hyunlee_image} alt="hyun_image"/></a>
         <div className="name">Hyun, Lee</div>
         <div className="role">Master Student</div>
         <div className="email">
@@ -72,7 +72,7 @@ function People() {
         </div>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} /></a>
+        <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} alt="jaeryung_image"/></a>
         <div className="name">Jaeryung, Chung</div>
         <div className="role">Master Student</div>
         <div className="email">
@@ -88,7 +88,7 @@ function People() {
     <h3>Alumni</h3>
     <ul className="people_list">
       <li>
-        <img src={joohyoungpark_image} />
+        <img src={joohyoungpark_image} alt="joohyoung_image"/>
         <div className="name">Juhyeong, Park</div>
         <div className="role">
           MSc.<br />
@@ -97,7 +97,7 @@ function People() {
 
       </li>
       <li>
-        <img src={byoungjaekim_image} />
+        <img src={byoungjaekim_image} alt="byoungjae_image"/>
         <div className="name">Byoungjae, Kim</div>
         <div className="role">MSc.<br/>
           PhD Student @ KAIST
@@ -105,21 +105,21 @@ function People() {
         
       </li>
       <li>
-        <img src={yusangyun_image} />
+        <img src={yusangyun_image} alt="yusang_image"/>
         <div className="name">Yoosang, Yoon</div>
         <div className="role">MSc.<br/>
           Skilled Industrial Personnel @ PLATEER
         </div>
       </li>
       <li>
-        <img src={minsunkim_image} />
+        <img src={minsunkim_image} alt="minsun_image"/>
         <div className="name">Minsun, Kim</div>
         <div className="role">MSc.<br/>
           Product Manager @ Korea Telecom
         </div>
       </li>
       <li>
-        <img src={jinjeong_image} />
+        <img src={jinjeong_image} alt="jin_image"/>
         <div className="name">Jin, Jeong</div>
         <div className="role">Master Student</div>
         <div className="email">

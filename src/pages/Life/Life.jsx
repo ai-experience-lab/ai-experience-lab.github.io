@@ -6,7 +6,7 @@ function Life() {
     <section id="life">
         <h2>Life @ AEL</h2>
         <p>
-            <img className="full_column" src={lab_activities}/>
+            <img className="full_column" src={lab_activities} alt=""/>
         </p>
         
 

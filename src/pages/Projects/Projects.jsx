@@ -33,7 +33,7 @@ function Projects() {
         <li className="project">
           <div className="image">
             <a href="/project/Chart2Experience">
-              <img src={chart2experience} />
+              <img src={chart2experience} alt="c2e_image"/>
             </a>
           </div>
           <div className="title">
@@ -44,7 +44,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={grounded} style={{ "objectPosition": "center center"}} />
+            <img src={grounded} style={{ "objectPosition": "center center"}} alt=""/>
           </div>
           <div className="title">
             <a href="/project/GroundedChart">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</a>
@@ -54,7 +54,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <a href="/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} /></a>
+            <a href="/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} alt=""/></a>
           </div>
           <div className="title">
             <a href="/project/InTalk">InTalk: Voice-Enabled Chatbot for Medical Pre-Consultation</a>
@@ -64,7 +64,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/Lifegraphy"><img src={lifegraphy} /></a>
+          <a href="/project/Lifegraphy"><img src={lifegraphy} alt=""/></a>
           </div>
           <div className="title">
             <a href="/project/Lifegraphy">Lifegraphy: Chatting with Virtual Customer Personas
@@ -75,7 +75,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} />
+          <a href="/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} alt=""/>
           </a>
           </div>
           <div className="title">
@@ -87,7 +87,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/Gaze2Prompt"><img src={gaze} /></a>
+          <a href="/project/Gaze2Prompt"><img src={gaze} alt=""/></a>
           </div>
           <div className="title">
           <a href="/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
@@ -97,7 +97,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} />
+          <a href="/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} alt=""/>
           </a>
           </div>
           <div className="title">
@@ -109,7 +109,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} />
+          <a href="/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} alt=""/>
           </a>
           </div>
           <div className="title">
@@ -125,7 +125,7 @@ function Projects() {
       <ul className="projectList">
         <li className="project">
           <div className="image">
-            <img src={iitp} />
+            <img src={iitp} alt=""/>
           </div>
           <div className="title">
             Data Visualization for Alleviating Stress of Emotional Labor Over the Phone
@@ -135,7 +135,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={fush} />
+            <img src={fush} alt=""/>
           </div>
           <div className="title">
             Future Home for Family
@@ -154,7 +154,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={skully} />
+            <img src={skully} alt=""/>
           </div>
           <div className="title">
             Interactive Gender Estimation of Human Skull
@@ -196,7 +196,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={korail} />
+            <img src={korail} alt=""/>
           </div>
           <div className="title">
             Interactive Dashboard for High-Speed Train Safety Management
@@ -213,7 +213,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={maehwasoo} />
+            <img src={maehwasoo} alt=""/>
           </div>
           <div className="title">
             MaeHwaSoo - Interactive Curriculum Explorer for College Students

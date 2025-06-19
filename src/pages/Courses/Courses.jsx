@@ -38,7 +38,7 @@ function Courses() {
         </p>
         <div className="image" style={{ margin: "20px auto", width: "70%", }}>
           <a href="https://ifdesign.com/en/winner-ranking/project/dear/616445" target="_blank" rel="noreferrer">
-            <img src={dear_if} />
+            <img src={dear_if} alt=""/>
           </a>
         </div>
       </div>
