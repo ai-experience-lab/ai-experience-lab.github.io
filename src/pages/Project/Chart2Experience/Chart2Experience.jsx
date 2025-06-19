@@ -1,5 +1,5 @@
-import img_chart2exp1 from './chart2exp-3.png';
-import img_chart2exp2 from './chart2exp-2.png';
+//import img_chart2exp1 from './chart2exp-3.png';
+//import img_chart2exp2 from './chart2exp-2.png';
 import img_chart2exp_all from './chart2exp-all.png';
 import { FaAward } from "react-icons/fa";
 

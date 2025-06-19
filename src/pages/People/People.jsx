@@ -42,7 +42,7 @@ function People() {
         </div>
       </li>
       <li>
-        <img src={hyunseungmoon_image} />
+        <img src={hyunseungmoon_image} alt="hyunseung_image"/>
         <div className="name">HyunSeung, Moon</div>
         <div className="role">Master Student</div>
         <div className="email">
