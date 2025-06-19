@@ -12,7 +12,7 @@ function Courses() {
         </div>
       </div>
       <h3>ID.49902 Designing Artificial Human Behavior
-        &nbsp;&nbsp;&nbsp;<a href="" target="_blank" rel="noreferrer">Spring 2025 - </a>
+        &nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" target="_blank" rel="noreferrer">Spring 2025 - </a>
       </h3>
       <p>
         In this course, students will experience the process of designing artificial models of the human mind, personality, and experiences using large language models (LLMs), developing them into innovative product/service features, and evaluating their outcomes. The 16-week program combines theory, individual assignments and exercises, and group projects. Through theoretical learning, students will master the principles and characteristics of LLMs while exploring various issues such as AI usability, ethics, security, and evaluation methods through case studies and research papers. Individual assignments and exercises focus on teaching prompt engineering and prototyping skills. Finally, group projects (3-4 members) aim to analyze user challenges and needs within a specific domain and propose AI-driven product/service features to address these issues. The process includes the following steps:
