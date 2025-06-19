@@ -1,6 +1,6 @@
-import logo_kaist from "../images/logo-kaist.png";
+//import logo_kaist from "../images/logo-kaist.png";
 import React from 'react';
-import  { Link } from "react-router-dom";
+//import  { Link } from "react-router-dom";
 import AelLogo from "./AelLogo.jsx";
 import './Header.scss';
 
