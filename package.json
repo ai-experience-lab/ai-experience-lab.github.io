@@ -1,6 +1,6 @@
 {
-  "homepage": "https://reflect9.github.io/ael/",
-  "name": "ai-experience-lab",
+  "homepage": "https://ai-experience-lab.github.io/",
+  "name": "AI-Experience-Lab",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
