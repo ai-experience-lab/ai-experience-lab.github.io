@@ -1,0 +1,79 @@
+.App-header {
+    position:fixed;
+    top:0; left:0;
+    z-index:1;
+    background-color: transparent;
+    height:100px;
+    width:100%;
+    // box-shadow:0px 5px 14px rgba(0,0,0,0.08);
+    flex-direction: row;
+    align-items:center;
+    .App-header-content {
+      // max-width:1000px; // Commented out to put the emblem left side
+      height:100%;
+      margin:auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items:center;
+      // border-bottom:1px solid #eee;
+      font-size: 19px;
+      font-weight:600;
+      color: #333;  
+      .lab_title {
+        flex:0 1 auto;
+        margin-left:30px;  
+        svg {
+            height:40px;
+            display:inline-block;
+        }
+        .light {
+          margin-left:20px;
+          font-weight:400;
+          display:inline-block;
+          font-size:0.9em;
+        }
+        
+      }
+      
+      .right {
+        flex:0 1 auto;
+        font-size:1rem;
+        font-weight:400;
+        padding-right:40px;
+        color:#000;
+        .languageToggle {
+          display:inline-block;
+          cursor:pointer;
+          font-size:1.8rem;
+          color:#000;
+          margin-right:10px;
+          svg {
+            vertical-align:middle;
+          }
+          .currentLanguage {
+            font-size:1.2rem;
+            color:#000;
+            margin-left:4px;
+          }
+        }
+        img.logo_kaist {
+          display:inline-block;
+          height:26px;
+          margin-right:8px; margin-top:3px;
+          opacity:0.7;
+          vertical-align:middle;
+        }
+        img.logo_id {
+          display:inline-block;
+          height:28px;
+          margin-right:4px; margin-top:0px;
+          opacity:1;
+          vertical-align:middle;
+        }
+        a {color:inherit; font-weight:700;}
+      }
+      
+      
+    }
+  }

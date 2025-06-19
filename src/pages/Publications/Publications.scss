@@ -1,0 +1,98 @@
+.publications {
+    .year {
+        display:block;
+        margin:auto;
+        text-align:center;
+        margin-top:4rem;
+    }
+    .subTitle {
+        font-size: 1rem;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+
+ul.publicationList {
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 2.5rem;
+    padding: 20px;
+    li {
+        list-style-type: none;
+        display: block;
+        font-size: 15px;
+        margin-bottom: 32px;
+
+        .bib-item {
+            .title {
+                font-weight: 400;
+                font-size:1.3rem;
+                .tag {
+                    display: inline-block;
+                    border-radius: 4px;
+                    vertical-align: top;
+                    border: 1px solid #2197ce;
+                    color: #2197ce;
+                    font-size: 10px;
+                    font-weight: 400;
+                    margin-left: 12px;
+                    padding: 1px 3px;
+                }
+            }
+
+            .authors {
+                margin-top:0.5rem;
+                line-height: 1.5em;
+                font-size: 0.8em;
+                color: #aaa;
+                em {
+                    font-weight: 600;
+                    font-style: normal;
+                }
+            }
+
+            .description {
+                margin-top:0.5rem;
+                color: rgb(57, 57, 57);
+                font-size: 0.9em;
+                line-height: 1.6em;
+            }
+            .award {
+                color: #2197ce;
+                font-size: 1.2em;
+                vertical-align: middle;
+            }
+            span.acknowledgement {
+                margin-left: 10px;
+                margin-right: 10px;
+                color: #2197ce;
+            }
+
+            .links {
+                margin-top: 1rem;
+                a {
+                    background:#eee;
+                    padding:8px 20px;
+                    border-radius: 30px;
+                    color: #333;
+                    font-size: 0.9em;
+                    text-decoration: none;
+                    &:hover {
+                        background:#333;
+                        color:white;
+                    }
+                }
+            }
+            a.link {
+                margin-left: 4px;
+                color: #aaa;
+                font-size: 0.9em;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+    }
+}
+

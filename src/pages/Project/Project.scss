@@ -1,0 +1,149 @@
+.Project {
+    margin:100px auto;
+    max-width: 1200px;
+            
+    .ProjectContent {
+        .Header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            .Date{
+                display:block;
+                margin:auto;
+                font-size: .875rem;
+                font-weight:500;
+                color: #666;
+                margin-bottom: 2.5rem;
+                justify-content: center;
+            }
+            .Title {
+                width: 100%;
+                text-align: center;
+                font-size: clamp(2rem,calc(2rem + 2 * ((100vw - 23.4375rem) / 66.5625)),4rem);
+                line-height: clamp(2.28rem,calc(2.28rem + 1.72 * ((100vw - 23.4375rem) / 66.5625)),4rem);
+                color: black;
+                font-weight: 500;
+                
+            }
+            .Subtitle {
+                font-size: 1rem;
+                margin-top:2.5rem;
+                text-align: center;
+                color: #333;
+
+            }
+            .Remarks {
+                margin-top: 0.3rem;
+                margin-bottom: 0.3rem;
+                font-size: 0.9rem;
+                color: #008f18;
+                text-align: center;
+                max-width: 800px;
+                line-height: 1.5rem;
+                font-weight:600;
+            }
+            .Researchers {
+                margin-top: 1.5rem;
+                font-size: 0.9rem;
+                color: #999;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                font-style:italic;
+                a {
+                    margin: 0 10px;
+                    color: #333;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .links {
+                margin-top: 1.5rem;
+                a {
+                    background:#eee;
+                    padding:8px 20px;
+                    border-radius: 30px;
+                    color: #333;
+                    font-size: 0.9em;
+                    text-decoration: none;
+                    &:hover {
+                        background:#333;
+                        color:white;
+                    }
+                }
+            }
+        }
+        .MainContent {
+            margin-top:3rem;
+            font-size:1rem;
+            line-height:1.75rem;
+            @media (max-width: 1000px) {
+                font-size: 0.9rem;
+                line-height:1.5rem;
+            }
+            .ImageBox {
+                width: 100%;
+                overflow:hidden;
+                border-radius:.38rem;
+                margin-top:4rem;
+                margin-bottom:4rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    border-radius: 8px;
+                }
+            }
+            .halfColumn {
+                width: 50%;
+                margin: auto;
+                padding: 0 20px;
+                @media (max-width: 1000px) {
+                    width: 90%;
+                }
+            }
+            h3 {
+                margin-top: 4rem;
+                font-size: 1.7rem;
+                line-height: 2.25rem;
+                color: #333;
+                font-weight: 400;
+                @media (max-width: 1000px) {
+                    font-size: 1.4rem;
+                }
+            }
+            p {
+                margin-bottom:1.5rem;
+            }
+            ul, ol {
+                margin-bottom:1.5rem;
+                padding-left: 3rem;
+                li {
+                    margin-bottom: 0.75rem;
+                    line-height: 1.75rem;
+                }
+            }
+            div.contact {
+                margin-top: 2rem;
+                font-size: 0.9rem;
+                color: #aaa;
+                a {
+                    color: #2197ce;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        
+       
+    }
+    
+
+
+
+}

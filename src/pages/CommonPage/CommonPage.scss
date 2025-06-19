@@ -1,0 +1,212 @@
+$pinkyred: #ff385c;
+
+.App {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin: auto;
+    color: rgb(72, 72, 72);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.CommonPage {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+
+    .Content {
+        margin: auto;
+        height: 100%;
+        width:100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .page {
+            margin:100px auto;
+            max-width: 1200px;
+            img.full_column {
+                width: 100%;
+            }
+
+            .pageTitle {
+                width: 100%;
+                text-align: center;
+                font-size: 5rem;
+                color: black;
+                font-weight: 500;
+                letter-spacing: -0.05rem;
+            }
+            .subTitle {
+                font-size: 1rem;
+                margin: 20px;
+                text-align: center;
+            }
+            .halfColumn {
+                width: 50%;
+                margin: auto;
+                padding: 0 20px;
+            }
+
+            h2 {
+                margin: 0;
+                margin-left: -20px;
+                padding-left: 12px;
+                border-left: 8px solid $pinkyred;
+                font-size: 18px;
+                font-weight: 800;
+            }
+
+            h3 {
+                margin-top: 3rem;
+                font-size: 1.7em;
+                // padding-left:1em;
+                color: #333;
+                font-weight: 400;
+
+                em {
+                    color: #333;
+                    font-size: 1.2em;
+                    font-style: normal;
+                }
+            }
+
+            h4 {
+                margin-top: 24px;
+                font-size: 0.9em;
+                color: #333;
+
+                em {
+                    color: #333;
+                    font-size: 1.2em;
+                    font-style: normal;
+                }
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.85em;
+                padding-right: 0;
+
+                em {
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+
+            p.indented {
+                margin-top: -5px;
+                padding-left: 1em;
+            }
+
+            .videoContainer {
+                position: relative;
+                height: 0;
+                padding-top: 56.25%;
+                width: 100%;
+            }
+
+            .videoContainer iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            .roundedButton {
+                display: block;
+                margin:20px auto;
+                padding: 8px 16px;
+                background-color: #eee;
+                color: black;
+                border-radius: 20px;
+                font-size: 0.8em;
+                font-weight: 400;
+                text-decoration: none;
+                width:fit-content;
+                transition: background-color 0.3s;
+                &:hover {
+                    background-color: darken($pinkyred, 10%);
+                }
+            }
+        }
+
+
+    }
+
+
+
+}
+
+ul.people_list {
+    margin: 20px;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        width: 120px;
+        text-align: center;
+        vertical-align: top;
+        font-size: 13px;
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 100% !important;
+            background-color: #ddd;
+            filter: grayscale(100%);
+        }
+
+        img.noun_person {
+            object-fit: contain;
+            object-position: 50% 20px;
+            // color:white;
+            filter: invert(1);
+            opacity: 0.25;
+        }
+
+        div.name {
+            margin-top: 6px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        div.role {
+            font-size: 13px;
+        }
+
+        div.email {
+            font-size: 11px;
+        }
+
+        div.website {
+            a {
+                color: #aaa
+            }
+        }
+    }
+}
+
+
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
