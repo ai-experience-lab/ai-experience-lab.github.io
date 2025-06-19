@@ -1,11 +1,22 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "./Nav.scss";
 // import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 // import { RiEnglishInput } from "react-icons/ri";
 // import { TbAlphabetKorean } from "react-icons/tb";
 
 function Nav({language, setLanguage}) {
-    return (<div className="nav">
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        // 컴포넌트 마운트 후 애니메이션 시작
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 100);
+        
+        return () => clearTimeout(timer);
+    }, []);
+    return (<div className={`nav ${isVisible ? 'nav-visible' : ''}`}>
         {/* <div className="title_kr">
             AI<br/>
             Experience<br/>

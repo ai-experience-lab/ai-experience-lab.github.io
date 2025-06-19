@@ -7,36 +7,50 @@
 @media screen and (min-width: 1000px) {
     .nav {
         flex: 0 0 200px;
-        margin-top:120px;
-        display:flex;
+        margin-top: 120px;
+        display: flex;
+        
+        // 초기 상태 (숨김)
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        
+        // 보임 상태
+        &.nav-visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
         div.title_kr {
             font-size: 1rem;
             font-weight: 600;
             margin: 0 30px;
             text-align: left;
-            line-height:2rem;
-            color:#000;
+            line-height: 2rem;
+            color: #000;
         }
+        
         .languageToggle {
-            display:inline-block;
-            cursor:pointer;
-            margin-left:30px;
-            font-size:1.8rem;
-            color:#000;
-            margin-right:10px;
+            display: inline-block;
+            cursor: pointer;
+            margin-left: 30px;
+            font-size: 1.8rem;
+            color: #000;
+            margin-right: 10px;
             svg {
-              vertical-align:middle;
+                vertical-align: middle;
             }
             .currentLanguage {
-              font-size:1.2rem;
-              color:#000;
-              margin-left:4px;
+                font-size: 1.2rem;
+                color: #000;
+                margin-left: 4px;
             }
         }
+        
         ul {
             display: block;
             list-style-type: none;
-            margin: 30px 30px 10px;
+            margin: 30px 20px 10px;
             padding: 0;
         }
 
@@ -47,8 +61,8 @@
             box-sizing: border-box;
             
             a, button {
-                margin-left: 10px;
-                margin-right: 30px;
+                margin-left: 1rem;
+                margin-right: 3rem;
                 color: black;
                 font-size: 1rem;
                 font-weight: 500;
@@ -66,6 +80,7 @@
                 position: relative;
                 z-index: 1;
             }
+            
             &:hover {
                 background: #eee;
                 pointer-events: auto;
