@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Chart2Experience from "./Chart2Experience/Chart2Experience";
 import GroundedChart from "./GroundedChart/GroundedChart";
 import InTalk from "./InTalk/InTalk";
@@ -7,7 +7,6 @@ import Skulpt from "./Skulpt/Skulpt";
 import Gaze2Prompt from "./Gaze2Prompt/Gaze2Prompt";
 import HistoChat from "./HistoChat/HistoChat";
 import WrightHere from "./WrightHere/WrightHere";
-
 
 import "./Project.scss";
 
@@ -26,6 +25,11 @@ function Project() {
     const props = pageProps[pid] || <div className="Project">Project not found</div>;
     return (
         <div className="Project">
+            <div className="backButton">
+                <Link to="/projects" className="back-link">
+                    ← Back to Projects
+                </Link>
+            </div>
             {props}
         </div>
     );

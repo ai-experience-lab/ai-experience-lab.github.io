@@ -1,6 +1,25 @@
 .Project {
     margin:100px auto;
     max-width: 1200px;
+    
+    .backButton {
+        margin-bottom: 0;
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: #666;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 8px 16px;
+            transition: all 0.2s ease;
+            
+            &:hover {
+                color: #333;
+                border-color: #999;
+                background-color: #f9f9f9;
+            }
+        }
+    }
             
     .ProjectContent {
         .Header {
