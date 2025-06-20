@@ -36,7 +36,6 @@ function Nav({language, setLanguage}) {
             }
         </div> */}
         <ul>
-            <li className="no-select"><Link to="/news">News</Link></li>
             <li className="no-select"><Link to="/about">About us</Link></li>
             <li className="no-select"><Link to="/people">People</Link></li>
             <li className="no-select"><Link to="/projects">Projects</Link></li>
@@ -44,7 +43,7 @@ function Nav({language, setLanguage}) {
             <li className="no-select"><Link to="/courses">Courses</Link></li>
             <li className="no-select"><Link to="/gallery">Gallery</Link></li>
             <li className="no-select"><Link to="/join">Join</Link></li>
-            
+            <li className="no-select"><Link to="/news">News</Link></li>
         </ul>
         
         
