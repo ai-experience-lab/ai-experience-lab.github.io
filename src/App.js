@@ -24,7 +24,7 @@ import CommonPage from "./pages/CommonPage/CommonPage.jsx";
 
 // import logo_kaist from "./images/logo-kaist.png";
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.scss';
 
@@ -39,7 +39,7 @@ function App() {
   const [language, setLanguage] = React.useState("en");
 
   return (
-    <Router>
+   <Router>
       <div className="App noBounce">
         <Header language={language} setLanguage={setLanguage} />
         <div className="CommonPage noBounce">
