@@ -14,8 +14,76 @@ function Publications() {
         </div>
       </div>
 
-
       <div className="">
+        <div className="year">2025</div>
+        <ul className="publicationList">
+                    <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank" rel="noreferrer">
+                Bridging Bond Beyond Life: Designing VR Memorial Space with Stakeholder Collaboration via Research through Design
+                </a>
+              </div>
+              <div className="description">
+                 Extended Abstract @ CHI 2025
+              </div>
+              <div className="authors">
+                Heejae Bae, Nayeong Kim, Sehee Lee, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3720212" target="_blank" rel="noreferrer">
+                LIGS: Developing an LLM-infused Game System for Emergent Narrative
+                </a>
+              </div>
+              <div className="description">
+              Extended Abstract @ CHI 2025
+              </div>
+              <div className="authors">
+              <em>Jin Jeong</em>, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719932" target="_blank" rel="noreferrer">
+                WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment
+                </a>
+              </div>
+              <div className="description">
+              Extended Abstract @ CHI 2025
+              </div>
+              <div className="authors">
+              <em>Jaeryung Chung</em>, <em>Seon Gyeom Kim</em>, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://ieeexplore.ieee.org/document/11021044" target="_blank" rel="noreferrer">
+                Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts
+                </a>
+              </div>
+              <div className="description">
+              Best Paper Award @ PacificVis 2025 
+              <span className="acknowledgement">
+                  <FaAward className="award" />
+                </span>
+              </div>
+              <div className="authors">
+              <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Ryan Rossi, Eunyee Koh, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+        </ul>
         <div className="year">2024</div>
         <ul className="publicationList">
           <li>
@@ -62,7 +130,7 @@ function Publications() {
                  arxiv
               </div>
               <div className="authors">
-              Minsun Kim, SeonGyeom Kim, Suyoun Lee, Yoosang Yoon, Junho Myung, Haneul Yoo, Hyunseung Lim, Jieun Han, Yoonsu Kim, So-Yeon Ahn, Juho Kim, Alice Oh, Hwajung Hong, Tak Yeon Lee
+              Minsun Kim, Seon Gyeom Kim, Suyoun Lee, Yoosang Yoon, Junho Myung, Haneul Yoo, Hyunseung Lim, Jieun Han, Yoonsu Kim, So-Yeon Ahn, Juho Kim, Alice Oh, Hwajung Hong, Tak Yeon Lee
               </div>
             </div>
           </li>
@@ -78,74 +146,7 @@ function Publications() {
                  arxiv e-print
               </div>
               <div className="authors">
-                Gyeom Kim Seon, Park Juhyeong, Song Yutaek, Lee Donggun, Lee Yubin, Rossi Ryan, Hoffswell Jane, Koh Eunyee, Lee Tak Yeon
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className="bib-item">
-              <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank" rel="noreferrer">
-                Bridging Bond Beyond Life: Designing VR Memorial Space with Stakeholder Collaboration via Research through Design
-                </a>
-              </div>
-              <div className="description">
-                 Extended Abstract @ CHI 2025
-              </div>
-              <div className="authors">
-                Heejae Bae, Nayeong Kim, Sehee Lee, and Tak Yeon Lee
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className="bib-item">
-              <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3720212" target="_blank" rel="noreferrer">
-                LIGS: Developing an LLM-infused Game System for Emergent Narrative
-                </a>
-              </div>
-              <div className="description">
-              Extended Abstract @ CHI 2025
-              </div>
-              <div className="authors">
-              Jin Jeong and Tak Yeon Lee
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className="bib-item">
-              <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719932" target="_blank" rel="noreferrer">
-                WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment
-                </a>
-              </div>
-              <div className="description">
-              Extended Abstract @ CHI 2025
-              </div>
-              <div className="authors">
-              Jaeryung Chung, Seon Gyeom Kim, Tak Yeon Lee
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className="bib-item">
-              <div className="title">
-                <a href="https://arxiv.org/abs/2505.17374" target="_blank" rel="noreferrer">
-                Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts
-                </a>
-              </div>
-              <div className="description">
-              Best Paper Award @ PacificVis 2025 
-              <span className="acknowledgement">
-                  <FaAward className="award" />
-                </span>
-              </div>
-              <div className="authors">
-              Jaeryung Chung, Seon Gyeom Kim, Tak Yeon Lee
+                Seon Gyeom Kim, Juhyeong Park, Yutaek Song, Donggun Lee, Yubin Lee, Ryan Rossi, Jane Hoffswell, Eunyee Koh, Tak Yeon Lee
               </div>
             </div>
           </li>
