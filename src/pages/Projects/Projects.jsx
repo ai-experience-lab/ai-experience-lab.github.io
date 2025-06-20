@@ -32,42 +32,44 @@ function Projects() {
       <ul className="projectList">
         <li className="project">
           <div className="image">
-            <a href="/project/Chart2Experience">
+            <a href="#/project/Chart2Experience">
               <img src={chart2experience} alt="c2e_image"/>
             </a>
           </div>
           <div className="title">
-            <a href="/project/Chart2Experience">Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts</a>
+            <a href="#/project/Chart2Experience">Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-            <img src={grounded} style={{ "objectPosition": "center center"}} alt=""/>
+            <a href="#/project/GroundedChart">
+              <img src={grounded} style={{ "objectPosition": "center center"}} alt=""/>
+            </a>
           </div>
           <div className="title">
-            <a href="/project/GroundedChart">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</a>
+            <a href="#/project/GroundedChart">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-            <a href="/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} alt=""/></a>
+            <a href="#/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} alt=""/></a>
           </div>
           <div className="title">
-            <a href="/project/InTalk">InTalk: Voice-Enabled Chatbot for Medical Pre-Consultation</a>
+            <a href="#/project/InTalk">InTalk: Voice-Enabled Chatbot for Medical Pre-Consultation</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-          <a href="/project/Lifegraphy"><img src={lifegraphy} alt=""/></a>
+          <a href="#/project/Lifegraphy"><img src={lifegraphy} alt=""/></a>
           </div>
           <div className="title">
-            <a href="/project/Lifegraphy">Lifegraphy: Chatting with Virtual Customer Personas
+            <a href="#/project/Lifegraphy">Lifegraphy: Chatting with Virtual Customer Personas
             </a>
             <span className="time">2024-2025</span>
           </div>
@@ -75,11 +77,11 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} alt=""/>
+          <a href="#/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} alt=""/>
           </a>
           </div>
           <div className="title">
-          <a href="/project/Skulpt">SKULPT: Facial Reconstruction from Human Skull
+          <a href="#/project/Skulpt">SKULPT: Facial Reconstruction from Human Skull
           </a>
             <span className="time">2024-2025</span>
           </div>
@@ -87,21 +89,21 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/Gaze2Prompt"><img src={gaze} alt=""/></a>
+          <a href="#/project/Gaze2Prompt"><img src={gaze} alt=""/></a>
           </div>
           <div className="title">
-          <a href="/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
+          <a href="#/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-          <a href="/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} alt=""/>
+          <a href="#/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} alt=""/>
           </a>
           </div>
           <div className="title">
-          <a href="/project/HistoChat">HistoChat: Leveraging AI-Driven Historical Personas for Personalized and
+          <a href="#/project/HistoChat">HistoChat: Leveraging AI-Driven Historical Personas for Personalized and
             Engaging Middle School History Education</a>
             <span className="time">2025</span>
           </div>
@@ -109,11 +111,11 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} alt=""/>
+          <a href="#/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} alt=""/>
           </a>
           </div>
           <div className="title">
-          <a href="/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
+          <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
             <span className="time">2024-2025</span>
           </div>
         </li>
