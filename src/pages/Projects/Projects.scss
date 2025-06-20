@@ -25,15 +25,20 @@
                 width: 100%;
                 // height: auto;
                 margin-bottom:12px;
+                overflow: hidden;
+                border-radius: 1rem;
+                border:1px solid #eee;
                 img {
                     width: 100%;
                     aspect-ratio: 1/1;
                     object-fit: cover;
                     object-position:top left;
-                    border-radius: 1rem;
-                    overflow:hidden;
-                    // box-shadow: inset 5 0 19px rgba(0,0,0,0.1);
-                    border:1px solid #eee;
+                    transition: transform 0.3s ease-in-out;
+                }
+                &:hover {
+                    img {
+                        transform: scale(1.03);
+                    }
                 }
             }
             .title {

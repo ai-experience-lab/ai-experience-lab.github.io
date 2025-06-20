@@ -144,7 +144,7 @@ a {
                 width:fit-content;
                 transition: background-color 0.3s;
                 &:hover {
-                    background-color: darken($pinkyred, 10%);
+                    background-color: darken(#999, 10%);
                 }
             }
         }
