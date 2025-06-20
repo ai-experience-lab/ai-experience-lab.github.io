@@ -26,18 +26,18 @@
                 // height: auto;
                 margin-bottom:12px;
                 overflow: hidden;
-                border-radius: 1rem;
+                border-radius: 0.5rem;
                 border:1px solid #eee;
                 img {
                     width: 100%;
                     aspect-ratio: 1/1;
                     object-fit: cover;
                     object-position:top left;
-                    transition: transform 0.3s ease-in-out;
+                    transition: transform 0.1s ease-in-out;
                 }
                 &:hover {
                     img {
-                        transform: scale(1.03);
+                        transform: scale(1.02);
                     }
                 }
             }
