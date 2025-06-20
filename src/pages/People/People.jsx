@@ -16,7 +16,7 @@ import jaeryungchung_image from "../../images/member_photo/jaeryungchung.jpg";
 function People() {
   return (
   <div className="page">
-    <div className="pageTitle">Who We Are</div>
+    <div className="pageTitle">People</div>
     <h3>Current Members</h3>
     <ul className="people_list">
       <li>
