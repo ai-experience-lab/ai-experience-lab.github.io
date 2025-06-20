@@ -96,3 +96,9 @@ ul.publicationList {
     }
 }
 
+@media screen and (max-width: 768px) {
+    ul.publicationList {
+        padding: 1rem !important;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}

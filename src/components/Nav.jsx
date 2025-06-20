@@ -7,6 +7,7 @@ import "./Nav.scss";
 
 function Nav({language, setLanguage}) {
     const [isVisible, setIsVisible] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         // 컴포넌트 마운트 후 애니메이션 시작
@@ -16,38 +17,38 @@ function Nav({language, setLanguage}) {
         
         return () => clearTimeout(timer);
     }, []);
-    return (<div className={`nav ${isVisible ? 'nav-visible' : ''}`}>
-        {/* <div className="title_kr">
-            AI<br/>
-            Experience<br/>
-            Lab<br/>
-            인공지능<br/>
-            경험<br/>
-            연구실<br/>
-        </div> */}
-        {/* <div className="languageToggle">
-            {language === "en" ?
-                <span className="language" onClick={() => setLanguage("kr")}>
-                    <BsToggleOff/><RiEnglishInput className="currentLanguage"/> 
-                </span> :
-                <span className="language" onClick={() => setLanguage("en")}>
-                    <BsToggleOn/><TbAlphabetKorean className="currentLanguage"/>
-                </span>
-            }
-        </div> */}
-        <ul>
-            <li className="no-select"><Link to="/about">About us</Link></li>
-            <li className="no-select"><Link to="/people">People</Link></li>
-            <li className="no-select"><Link to="/projects">Projects</Link></li>
-            <li className="no-select"><Link to="/publications">Publications</Link></li>
-            <li className="no-select"><Link to="/courses">Courses</Link></li>
-            <li className="no-select"><Link to="/gallery">Gallery</Link></li>
-            <li className="no-select"><Link to="/join">Join</Link></li>
-            <li className="no-select"><Link to="/news">News</Link></li>
-        </ul>
-        
-        
-    </div>)
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    return (
+        <>
+            {/* 모바일 햄버거 버튼 */}
+            <button className="mobile-menu-button" onClick={toggleMobileMenu}>
+                <span className={isMobileMenuOpen ? 'active' : ''}></span>
+                <span className={isMobileMenuOpen ? 'active' : ''}></span>
+                <span className={isMobileMenuOpen ? 'active' : ''}></span>
+            </button>
+
+            {/* 모바일 메뉴 오버레이 */}
+            <div className={`mobile-menu-overlay ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}></div>
+
+            {/* 기존 네비게이션 */}
+            <div className={`nav ${isVisible ? 'nav-visible' : ''} ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+                <ul>
+                    <li className="no-select"><Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>About us</Link></li>
+                    <li className="no-select"><Link to="/people" onClick={() => setIsMobileMenuOpen(false)}>People</Link></li>
+                    <li className="no-select"><Link to="/projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</Link></li>
+                    <li className="no-select"><Link to="/publications" onClick={() => setIsMobileMenuOpen(false)}>Publications</Link></li>
+                    <li className="no-select"><Link to="/courses" onClick={() => setIsMobileMenuOpen(false)}>Courses</Link></li>
+                    <li className="no-select"><Link to="/gallery" onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link></li>
+                    <li className="no-select"><Link to="/join" onClick={() => setIsMobileMenuOpen(false)}>Join</Link></li>
+                    <li className="no-select"><Link to="/news" onClick={() => setIsMobileMenuOpen(false)}>News</Link></li>
+                </ul>
+            </div>
+        </>
+    )
 }
 
 export default Nav;

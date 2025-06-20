@@ -63,6 +63,11 @@ a {
                 margin: auto;
                 padding: 0 20px;
             }
+            @media screen and (max-width: 768px) {
+                .halfColumn {
+                    width: 70%;
+                }
+            }
 
             h2 {
                 margin: 0;
@@ -76,7 +81,7 @@ a {
             h3 {
                 margin-top: 3rem;
                 font-size: 1.7em;
-                // padding-left:1em;
+                padding-left:1em;
                 color: #333;
                 font-weight: 400;
 
@@ -107,6 +112,15 @@ a {
                 em {
                     font-weight: 700;
                     font-style: normal;
+                }
+            }
+            @media screen and (max-width: 768px) {
+                p {
+                    padding: 2rem;
+                }
+                ol, ul {
+                    padding-left: 4rem;
+                    padding-right: 2rem;
                 }
             }
 
@@ -144,16 +158,11 @@ a {
                 width:fit-content;
                 transition: background-color 0.3s;
                 &:hover {
-                    background-color: darken(#999, 10%);
+                    background-color: darken(#e3e3e3, 10%);
                 }
             }
         }
-
-
     }
-
-
-
 }
 
 ul.people_list {
@@ -207,6 +216,18 @@ ul.people_list {
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    ul.people_list {
+        padding: 0 !important;
+        text-align: center;
+        
+        li {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    };
 }
 
 
