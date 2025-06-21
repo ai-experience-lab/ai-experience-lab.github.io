@@ -21,12 +21,9 @@ function Projects() {
     <div className="page projects">
       <div className="pageTitle">Projects</div>
 
-      <div className="subTitle">
+      {/* <div className="subTitle">
         We are working on various projects that aim to improve human experience with AI.
-        <div className="roundedButton">
-          Contact
-        </div>
-      </div>
+      </div> */}
 
       {/*  CURRENT PROJECTS ------------------------------------------------------------------------ */}
       <h3>Current Projects</h3>
