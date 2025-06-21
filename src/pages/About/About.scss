@@ -27,4 +27,13 @@
             text-decoration: line-through;
         }
     }
+    .logoWrapper {
+        width:100%; 
+        text-align:center;
+        img {
+            width:20%;
+            margin-top:3rem;
+            margin-bottom:3rem;
+        }
+    }
 }

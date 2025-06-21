@@ -52,6 +52,9 @@ a {
                 color: black;
                 font-weight: 500;
                 letter-spacing: -0.05rem;
+                @media screen and (max-width: 1000px) {
+                    font-size: 3rem;
+                }
             }
             .subTitle {
                 font-size: 1rem;
@@ -85,7 +88,9 @@ a {
                 padding-left:1em;
                 color: #333;
                 font-weight: 400;
-
+                @media screen and (max-width: 1000px) {
+                    font-size: 1.4em;
+                }
                 em {
                     color: #333;
                     font-size: 1.2em;

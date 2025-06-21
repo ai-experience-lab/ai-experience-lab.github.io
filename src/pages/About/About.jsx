@@ -6,14 +6,19 @@ function About() {
     return (    
         <div className="page About">
             <div className="pageTitle">
-                <AelLogo />
+                About us
             </div>
             <div className="halfColumn">
                 <p>
                     <b>AI Experience Lab</b> (a.k.a AEL) was founded in 2021 by prof. <a href="http://www.takyeonlee.com" target='takyeonlee'>Tak Yeon Lee</a> at the <a href="https://id.kaist.ac.kr" target='id'>Industrial Design department</a>, <a href="https://www.kaist.ac.kr" target='kaist'>KAIST</a>. We create innovation solutions for real-world problems by integrating the power of <em>design</em>, <em>data</em>, and <em>artificial intelligence</em>.
                 </p>
-                <p>This manifesto outlines the principles that guide our work — a declaration of intent to reimagine design in an age of intelligent systems.</p>
+                {/* <div className="logoWrapper">
+                    <AelLogo/>
+                </div> */}
 
+                <p>This manifesto outlines the principles below that guide our work — a declaration of intent to reimagine design in an age of intelligent systems.</p>
+
+                
                 <h3>Without data, modern products have no pulse</h3>
                 <p className="">
                     Digital transformation is fundamentally changing how products and services operate and deliver value to people. Data now has become the lens to understand people, and the blood that runs through the vein of modern products. Our primary goal is to create innovative yet practical solutions for real-world problems. To achieve the goal, we leverage individual researchers' creative and constructive mindsets for finding insights from data, and building prototypes with data and AI technologies.
