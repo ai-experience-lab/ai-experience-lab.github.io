@@ -8,6 +8,9 @@ function GroundedChart() {
                 <div className="Date">
                     <div className="ProjectDateTitle">2025</div>
                 </div>
+                <div className="Remarks">
+                    Accepted to IEEE VIS 2025
+                </div>
                 <div className="Title">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</div>
                 {/* <div className="Subtitle"></div> */}
                 <div className="Researchers">

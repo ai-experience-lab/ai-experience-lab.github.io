@@ -9,7 +9,7 @@ function Publications() {
       <div className="subTitle">
         Check Tak Yeon Lee's Google Scholar page for the latest and older (-2021) publications
         <div className="roundedButton">
-          <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank" rel="noreferrer">Google Scholar page</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">Google Scholar page</a>
 
         </div>
       </div>
@@ -17,15 +17,63 @@ function Publications() {
       <div className="">
         <div className="year">2025</div>
         <ul className="publicationList">
-                    <li>
+          <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank" rel="noreferrer">
-                Bridging Bond Beyond Life: Designing VR Memorial Space with Stakeholder Collaboration via Research through Design
+                <a href="https://groundedchartgeneration.github.io/" target="_blank" rel="noreferrer">
+                Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity
                 </a>
               </div>
               <div className="description">
-                 Extended Abstract @ CHI 2025
+                Accepted @ IEEE VIS 2025
+              </div>
+              <div className="authors">
+                <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Yuseung Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="" target="_blank" rel="noreferrer">
+                “HistoChat”: Leveraging AI-Driven Historical Personas for Personalized and Engaging Middle School History Education
+                </a>
+              </div>
+              <div className="description">
+                Accepted @ ACM CSCW 2025
+              </div>
+              <div className="authors">
+                Yeon Soo Kim, <em>Hyun Seung Moon</em>, Sangsu Lee, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://ieeexplore.ieee.org/document/11021044" target="_blank" rel="noreferrer">
+                  Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts
+                </a>
+              </div>
+              <div className="description">
+                Best Paper Award @ PacificVis 2025
+                <span className="acknowledgement">
+                  <FaAward className="award" />
+                </span>
+              </div>
+              <div className="authors">
+                <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Ryan Rossi, Eunyee Koh, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719871" target="_blank" rel="noreferrer">
+                  Bridging Bond Beyond Life: Designing VR Memorial Space with Stakeholder Collaboration via Research through Design
+                </a>
+              </div>
+              <div className="description">
+                Extended Abstract @ CHI 2025
               </div>
               <div className="authors">
                 Heejae Bae, Nayeong Kim, Sehee Lee, and <em>Tak Yeon Lee</em>
@@ -37,14 +85,14 @@ function Publications() {
             <div className="bib-item">
               <div className="title">
                 <a href="https://dl.acm.org/doi/full/10.1145/3706599.3720212" target="_blank" rel="noreferrer">
-                LIGS: Developing an LLM-infused Game System for Emergent Narrative
+                  LIGS: Developing an LLM-infused Game System for Emergent Narrative
                 </a>
               </div>
               <div className="description">
-              Extended Abstract @ CHI 2025
+                Extended Abstract @ CHI 2025
               </div>
               <div className="authors">
-              <em>Jin Jeong</em>, and <em>Tak Yeon Lee</em>
+                <em>Jin Jeong</em>, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -53,36 +101,19 @@ function Publications() {
             <div className="bib-item">
               <div className="title">
                 <a href="https://dl.acm.org/doi/full/10.1145/3706599.3719932" target="_blank" rel="noreferrer">
-                WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment
+                  WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment
                 </a>
               </div>
               <div className="description">
-              Extended Abstract @ CHI 2025
+                Extended Abstract @ CHI 2025
               </div>
               <div className="authors">
-              <em>Jaeryung Chung</em>, <em>Seon Gyeom Kim</em>, and <em>Tak Yeon Lee</em>
+                <em>Jaeryung Chung</em>, <em>Seon Gyeom Kim</em>, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
 
-          <li>
-            <div className="bib-item">
-              <div className="title">
-                <a href="https://ieeexplore.ieee.org/document/11021044" target="_blank" rel="noreferrer">
-                Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts
-                </a>
-              </div>
-              <div className="description">
-              Best Paper Award @ PacificVis 2025 
-              <span className="acknowledgement">
-                  <FaAward className="award" />
-                </span>
-              </div>
-              <div className="authors">
-              <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Ryan Rossi, Eunyee Koh, and <em>Tak Yeon Lee</em>
-              </div>
-            </div>
-          </li>
+
         </ul>
         <div className="year">2024</div>
         <ul className="publicationList">
@@ -98,7 +129,7 @@ function Publications() {
                 LREC-COLING 2024
               </div>
               <div className="authors">
-                Jieun Han, Haneul Yoo, Junho Myung, Minsun Kim, Tak Yeon Lee, So-Yeon Ahn and Alice Oh
+                Jieun Han, Haneul Yoo, Junho Myung, <em>Minsun Kim</em>, <em>Tak Yeon Lee</em>, So-Yeon Ahn and Alice Oh
               </div>
             </div>
           </li>
@@ -114,7 +145,7 @@ function Publications() {
                 Intelligent Systems Conference (IntelliSys) 2024, Lecture Notes in Networks and Systems
               </div>
               <div className="authors">
-                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, Seungho Baek, Youn-kyung Lim, Tek-Jin Nam, and Tak Yeon Lee
+                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, <em>Seungho Baek</em>, Youn-kyung Lim, Tek-Jin Nam, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -123,30 +154,30 @@ function Publications() {
             <div className="bib-item">
               <div className="title">
                 <a href="https://arxiv.org/abs/2405.19691" target="_blank" rel="noreferrer">
-                Designing Prompt Analytics Dashboards to Analyze Student-ChatGPT Interactions in EFL Writing
+                  Designing Prompt Analytics Dashboards to Analyze Student-ChatGPT Interactions in EFL Writing
                 </a>
               </div>
               <div className="description">
-                 arxiv
+                arxiv
               </div>
               <div className="authors">
-              Minsun Kim, Seon Gyeom Kim, Suyoun Lee, Yoosang Yoon, Junho Myung, Haneul Yoo, Hyunseung Lim, Jieun Han, Yoonsu Kim, So-Yeon Ahn, Juho Kim, Alice Oh, Hwajung Hong, Tak Yeon Lee
+                <em>Minsun Kim</em>, <em>Seon Gyeom Kim</em>, Suyoun Lee, <em>Yoosang Yoon</em>, Junho Myung, Haneul Yoo, Hyunseung Lim, Jieun Han, Yoonsu Kim, So-Yeon Ahn, Juho Kim, Alice Oh, Hwajung Hong, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
-          
+
           <li>
             <div className="bib-item">
               <div className="title">
                 <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241118049G/abstract" target="_blank" rel="noreferrer">
-                Understanding the Impact of Spatial Immersion in Web Data Stories
+                  Understanding the Impact of Spatial Immersion in Web Data Stories
                 </a>
               </div>
               <div className="description">
-                 arxiv e-print
+                arxiv e-print
               </div>
               <div className="authors">
-                Seon Gyeom Kim, Juhyeong Park, Yutaek Song, Donggun Lee, Yubin Lee, Ryan Rossi, Jane Hoffswell, Eunyee Koh, Tak Yeon Lee
+                <em>Seon Gyeom Kim</em>, <em>Juhyeong Park</em>, Yutaek Song, Donggun Lee, Yubin Lee, Ryan Rossi, Jane Hoffswell, Eunyee Koh, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -164,7 +195,7 @@ function Publications() {
 
               </div>
               <div className="authors">
-                Jieun Han, Haneul Yoo, Junho Myung, Minsun Kim, Tak Yeon Lee, So-Yeon Ahn, and Alice Oh
+                Jieun Han, Haneul Yoo, Junho Myung, <em>Minsun Kim</em>, <em>Tak Yeon Lee</em>, So-Yeon Ahn, and Alice Oh
               </div>
             </div>
           </li>
@@ -180,7 +211,7 @@ function Publications() {
                 2023 IEEE International Conference on Big Data Industry and Government Program
               </div>
               <div className="authors">
-                Camille Harris, Ryan Rossi, Sana Malik, Jane Hoffswell, Fan Du, Tak Yeon Lee, Eunyee Koh, and Handong Zhao
+                Camille Harris, Ryan Rossi, Sana Malik, Jane Hoffswell, Fan Du, <em>Tak Yeon Lee</em>, Eunyee Koh, and Handong Zhao
               </div>
             </div>
           </li>
@@ -195,7 +226,7 @@ function Publications() {
                 ACM Web Conference 2023
               </div>
               <div className="authors">
-                Camille Harris, Ryan Rossi, Sana Malik, Jane Hoffswell, Fan Du, Tak Yeon Lee, Eunyee Koh, and Handong Zhao.
+                Camille Harris, Ryan Rossi, Sana Malik, Jane Hoffswell, Fan Du, <em>Tak Yeon Lee</em>, Eunyee Koh, and Handong Zhao.
               </div>
 
             </div>
@@ -212,7 +243,7 @@ function Publications() {
                 L@S '23: Proceedings of the Tenth ACM Conference on Learning @ Scale
               </div>
               <div className="authors">
-                Jieun Han, Haneul Yoo, Yoonsu Kim, Junho Myung, Minsun Kim, Hyunseung Lim, Juho Kim, Tak Yeon Lee, Hwajung Hong, So-Yeon Ahn, and Alice Oh
+                Jieun Han, Haneul Yoo, Yoonsu Kim, Junho Myung, <em>Minsun Kim</em>, Hyunseung Lim, Juho Kim, <em>Tak Yeon Lee</em>, Hwajung Hong, So-Yeon Ahn, and Alice Oh
               </div>
 
             </div>
@@ -235,7 +266,7 @@ function Publications() {
                 ACM Transactions on the Web
               </div>
               <div className="authors">
-                Xin Qian, Ryan A Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, Tak Yeon Lee, Nesreen K Ahmed
+                Xin Qian, Ryan A Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, <em>Tak Yeon Lee</em>, Nesreen K Ahmed
               </div>
 
             </div>
@@ -283,9 +314,9 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" rel="noreferrer" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">
-              An Evaluation-Focused Framework for Visualization Recommendation Algorithms
-              </a>
+                <a target="_blank" rel="noreferrer" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">
+                  An Evaluation-Focused Framework for Visualization Recommendation Algorithms
+                </a>
               </div>
               <div className="description">
                 IEEE VIS 2021
@@ -303,14 +334,14 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" rel="noreferrer" href="https://terpconnect.umd.edu/~xinq/Figure_captioning_WWW21.pdf">
-                Generating Accurate Caption Units for Figure Captioning
-              </a>
+                <a target="_blank" rel="noreferrer" href="https://terpconnect.umd.edu/~xinq/Figure_captioning_WWW21.pdf">
+                  Generating Accurate Caption Units for Figure Captioning
+                </a>
 
               </div>
               <div className="description">
                 ACM Web Conference 2021
-                
+
               </div>
               <div className="authors">
                 Xin Qian, Eunyee Koh, Fan Du, Sungchul Kim, Joel Chan, Ryan A Rossi, Sana Malik, <em>Tak Yeon Lee</em>
@@ -322,12 +353,12 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" rel="noreferrer" href="https://orcax.github.io/publications/">
-              EXACTA: Explainable Column Annotation</a>
+                <a target="_blank" rel="noreferrer" href="https://orcax.github.io/publications/">
+                  EXACTA: Explainable Column Annotation</a>
               </div>
               <div className="description">
                 KDD '21: Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (ACM) Association for Computing Machinery, New York, NY, USA, 2792–2804.
-                
+
               </div>
               <div className="authors">
                 Yikun Xian, Handong Zhao, <em>Tak Yeon Lee</em>, Sungchul Kim, Ryan Rossi, Zuohui Fu, Gerard de Melo and S. Muthukrishnan
@@ -339,11 +370,11 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-              <a target="_blank" rel="noreferrer" href="https://www.terpconnect.umd.edu/~xinq/Learning_to_Recommend_Vis_from_Data_KDD21.pdf">Learning to Recommend Visualizations from Data</a>
+                <a target="_blank" rel="noreferrer" href="https://www.terpconnect.umd.edu/~xinq/Learning_to_Recommend_Vis_from_Data_KDD21.pdf">Learning to Recommend Visualizations from Data</a>
               </div>
               <div className="description">
                 KDD '21: Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (ACM) Association for Computing Machinery, New York, NY, USA, 2792–2804.
-                
+
               </div>
               <div className="authors">
                 Xin Qian, Ryan Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, <em>Tak Yeon Lee</em>, and Joel Chan

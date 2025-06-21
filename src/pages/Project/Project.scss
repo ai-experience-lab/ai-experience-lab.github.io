@@ -103,6 +103,19 @@
                 font-size: 0.9rem;
                 line-height:1.5rem;
             }
+            .gifs {
+                display:flex;
+                flex-direction:row;
+                justify-content: space-between;;
+                border-radius:0;
+                // margin-bottom:1rem;
+                img {
+                    width:32% !important;
+                    border:1px solid #ddd;
+                    display:inline-block;
+                    border-radius:0;
+                }
+            }
             .ImageBox {
                 width: 100%;
                 overflow:hidden;
@@ -115,6 +128,7 @@
                     object-fit: contain;
                     border-radius: 8px;
                 }
+                
             }
             .halfColumn {
                 width: 50%;

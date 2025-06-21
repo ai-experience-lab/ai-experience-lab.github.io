@@ -8,6 +8,13 @@ import Gaze2Prompt from "./Gaze2Prompt/Gaze2Prompt";
 import HistoChat from "./HistoChat/HistoChat";
 import WrightHere from "./WrightHere/WrightHere";
 
+import IITP from "./IITP/IITP";
+import Fush from "./Fush/Fush";
+import Skully from "./Skully/Skully";
+import IDS from "./IDS/IDS";
+import Maehwasoo from "./Maehwasoo/Maehwasoo";
+import Korail from "./Korail/Korail";
+
 import "./Project.scss";
 
 function Project() {
@@ -20,7 +27,13 @@ function Project() {
         "Skulpt": <Skulpt/>,
         "Gaze2Prompt": <Gaze2Prompt/>,
         "HistoChat": <HistoChat/>,
-        "WrightHere": <WrightHere/>
+        "WrightHere": <WrightHere/>,
+        "IITP": <IITP/>,
+        "Fush": <Fush/>,
+        "skully": <Skully/>,
+        "IDS": <IDS/>, 
+        "Korail": <Korail/>,
+        "Maehwasoo": <Maehwasoo/>,
     }
     const props = pageProps[pid] || <div className="Project">Project not found</div>;
     return (
