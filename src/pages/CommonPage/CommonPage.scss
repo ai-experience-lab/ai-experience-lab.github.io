@@ -172,58 +172,6 @@ a {
     }
 }
 
-ul.people_list {
-    margin: 20px;
-    padding: 0;
-
-    li {
-        list-style-type: none;
-        display: inline-block;
-        margin-bottom: 20px;
-        margin-right: 40px;
-        width: 120px;
-        text-align: center;
-        vertical-align: top;
-        font-size: 13px;
-
-        img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 100% !important;
-            background-color: #ddd;
-            filter: grayscale(100%);
-        }
-
-        img.noun_person {
-            object-fit: contain;
-            object-position: 50% 20px;
-            // color:white;
-            filter: invert(1);
-            opacity: 0.25;
-        }
-
-        div.name {
-            margin-top: 6px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        div.role {
-            font-size: 13px;
-        }
-
-        div.email {
-            font-size: 11px;
-        }
-
-        div.website {
-            a {
-                color: #aaa
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 768px) {
     ul.people_list {
