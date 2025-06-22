@@ -1,0 +1,25 @@
+.join {
+    h3 {
+        padding-left:0 !important;
+        margin-bottom:1rem !important;
+    }
+    h4 {
+        font-size:1.2rem !important;
+        font-weight:500;
+        margin-top:3rem !important;
+    }
+    p {
+        text-align:justify;
+        margin: 0 !important;
+    }
+    ul {
+        margin:0 !important; padding:1rem 2rem !important;
+        li {
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+    p.answer {
+        padding-left:1rem;
+    }
+}
