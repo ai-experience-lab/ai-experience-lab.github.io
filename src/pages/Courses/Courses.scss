@@ -1,4 +1,5 @@
 .courses {
+    padding:20px;
     h3 {
         padding-left:2rem !important;
         margin-top: 4rem !important;
@@ -16,4 +17,27 @@
     p {
         padding-left:2rem;
     }
+
+    div.class_year {
+        margin-left:40px;
+        margin-right:40px;
+        a.term_projects {
+            &::before {
+                content: ">>";
+            }
+            color: #aaa;
+            font-weight: 500;
+            &:hover {
+                color: #1a6f9c;
+            }
+        }
+        .image {
+            img {
+                width:100%;
+            }
+        }
+    }
+    
+  
+    
 }

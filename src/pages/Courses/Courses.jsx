@@ -36,7 +36,7 @@ function Courses() {
           ID403 System Design completes the undergraduate curriculum of the Industrial Design department. The entire course focuses on conducting a design project where each project group consists of 4-5 students.  We assume that students have equipped most (if not all) design skills and knowledge for conducting user research, visual communication, building low and high-fidelity prototypes, and evaluate design outcomes. Historically the course had a specific theme for each year. We expect the final outcomes will not only look great but also provide innovative solutions and/or intriguing (or even provocative) messages to the audience. There is no predefined set of lectures, but we will have several sessions for sharing ideas and feedbacks. While we have no plan to get feedback from external audiences, each group will weekly present their progress to the instructor, teaching assistants, and other groups - and get feedback from them.</p>
         <div className="class_year">
           <p><b>2022. Home for Future Family</b>&nbsp; Supported by TaeJae Foundation &nbsp;
-            <a href="https://takyeon.notion.site/Term-Projects-ID403-a6407bf323bc4f0cb0e0496944a640bb" target="_blank" rel="noreferrer">Term Projects</a>
+            <a className="term_projects" href="https://takyeon.notion.site/Term-Projects-ID403-a6407bf323bc4f0cb0e0496944a640bb" target="_blank" rel="noreferrer"> See other projects</a>
           </p>
           <div className="image" style={{ margin: "20px auto", width: "70%", }}>
             <a href="https://ifdesign.com/en/winner-ranking/project/dear/616445" target="_blank" rel="noreferrer">
@@ -46,7 +46,7 @@ function Courses() {
         </div>
         <div className="class_year">
           <p><b>2023. NAVER for Generation Z</b>&nbsp; Supported by NAVER &nbsp;
-            <a href="https://takyeon.notion.site/Project-ID403-2023-8551d8ba60b646778def146163aba922" target="_blank" rel="noreferrer">Term Projects</a>
+            <a className="term_projects" href="https://takyeon.notion.site/Project-ID403-2023-8551d8ba60b646778def146163aba922" target="_blank" rel="noreferrer"> See other projects</a>
           </p>
           <div className="image" style={{ margin: "20px auto", width: "80%", "textAlign": "center" }}>
             <iframe width="300" height="168.75" style={{ "marginRight": "8px" }} src="https://www.youtube.com/embed/4kygZvWSBCQ?si=eFU_IPbTMZfShm9S" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

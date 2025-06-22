@@ -1,4 +1,6 @@
 .publications {
+    width: 100% !important;
+    max-width:1600px !important;
     .year {
         display:block;
         margin:auto;
@@ -10,15 +12,28 @@
         margin: 20px;
         text-align: center;
     }
+    .halfColumn {
+        width: 70% !important;
+        @media (max-width: 768px) {
+            width: 90% !important;
+        }
+        margin: auto;
+        padding: 0 20px;
+    }
 }
 
 
 ul.publicationList {
-    display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    gap: 2.5rem;
+    // display: grid;
+    // // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    // gap: 1.5rem;
     padding: 20px;
+
+    // @media (max-width: 768px) {
+        // grid-template-columns: repeat(1, 1fr);
+        // padding: 1rem !important;
+    // }
     li {
         list-style-type: none;
         display: block;

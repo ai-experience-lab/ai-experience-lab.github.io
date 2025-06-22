@@ -14,7 +14,7 @@ function Publications() {
         </div>
       </div>
 
-      <div className="">
+      <div className="halfColumn">
         <div className="year">2025</div>
         <ul className="publicationList">
           <li>
