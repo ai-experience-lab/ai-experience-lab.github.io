@@ -188,6 +188,20 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                PromptCrafter: Crafting Text-to-Image Prompt through Mixed-Initiative Dialogue with LLM
+              </div>
+              <div className="description">
+                ICML 2023 workshop on AI&HCI 
+              </div>
+              <div className="authors">
+                Seungho Baek, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, <em>Takyeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 GUIDE for GAIED: Exploring Student-ChatGPT Dialogue in EFL Writing Education
               </div>
               <div className="description">
