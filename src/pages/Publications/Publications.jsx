@@ -194,7 +194,7 @@ function Publications() {
                 ICML 2023 workshop on AI&HCI 
               </div>
               <div className="authors">
-                Seungho Baek, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, <em>Takyeon Lee</em>
+                Seungho Baek, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, and <em>Takyeon Lee</em>
               </div>
             </div>
           </li>
