@@ -7,7 +7,7 @@ function Publications() {
       <div className="pageTitle">Publications</div>
 
       <div className="subTitle">
-        Check Tak Yeon Lee's Google Scholar page for the latest and older (-2021) publications
+        Check <em>Tak Yeon Lee</em>'s Google Scholar page for the latest and older (-2021) publications
         <div className="roundedButton">
           <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">Google Scholar page</a>
 
@@ -28,7 +28,7 @@ function Publications() {
                 Accepted @ IEEE VIS 2025
               </div>
               <div className="authors">
-                <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Yuseung Lee, Jaeryung Chung, Ryan Rossi, Jihyung Kil, Eunyee Koh, and <em>Tak Yeon Lee</em>
+                <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Yuseung Lee, <em>Jaeryung Chung</em>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -188,13 +188,15 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                PromptCrafter: Crafting Text-to-Image Prompt through Mixed-Initiative Dialogue with LLM
+                <a href="https://arxiv.org/abs/2307.08985" target="_blank" rel="noreferrer">
+                  PromptCrafter: Crafting Text-to-Image Prompt through Mixed-Initiative Dialogue with LLM
+                </a>
               </div>
               <div className="description">
                 ICML 2023 workshop on AI&HCI 
               </div>
               <div className="authors">
-                Seungho Baek, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, and <em>Takyeon Lee</em>
+                <em>Seungho Baek</em>, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, and <em>Takyeon Lee</em>
               </div>
             </div>
           </li>
@@ -297,7 +299,7 @@ function Publications() {
                 HCAI Workshop at NeurIPS 2022
               </div>
               <div className="authors">
-                Seungho Baek, Hyerin Im, Uran Oh, Youn-kyung Lim, and Tak Yeon Lee
+                <em>Seungho Baek</em>, Hyerin Im, Uran Oh, Youn-kyung Lim, and <em>Tak Yeon Lee</em>
               </div>
 
             </div>
@@ -314,7 +316,7 @@ function Publications() {
                 Extended Abstracts @ CHI '22
               </div>
               <div className="authors">
-                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, Seungho Baek, and Tak Yeon Lee
+                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, <em>Seungho Baek</em>, and <em>Tak Yeon Lee</em>
               </div>
 
             </div>
@@ -358,7 +360,7 @@ function Publications() {
 
               </div>
               <div className="authors">
-                Xin Qian, Eunyee Koh, Fan Du, Sungchul Kim, Joel Chan, Ryan A Rossi, Sana Malik, <em>Tak Yeon Lee</em>
+                Xin Qian, Eunyee Koh, Fan Du, Sungchul Kim, Joel Chan, Ryan A Rossi, Sana Malik, and <em>Tak Yeon Lee</em>
               </div>
 
             </div>
@@ -401,7 +403,7 @@ function Publications() {
 
         <div className="year">Prior to 2021</div>
         <center>
-          <p>Check Tak Yeon Lee's <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank" rel="noreferrer">Google Scholar page</a> for publications before 2021</p>
+          <p>Check <em>Tak Yeon Lee</em>'s <a href="https://scholar.google.com/citations?hl=en&user=k2sjjrwAAAAJ" target="_blank" rel="noreferrer">Google Scholar page</a> for publications before 2021</p>
         </center>
       </div>
     </div>

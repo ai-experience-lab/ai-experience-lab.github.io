@@ -56,7 +56,7 @@ function People() {
       <li>
       <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} alt="jaeyoung_image"/></a>
         <div className="name kr">최재영</div>
-        <div className="name">JaeYoung, Choi</div>
+        <div className="name">Jae Young, Choi</div>
         <div className="role">Master Student</div>
         <div className="email">
         jaeyoungchoi@kaist.ac.kr 

@@ -14,7 +14,7 @@ function GroundedChart() {
                 <div className="Title">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</div>
                 {/* <div className="Subtitle"></div> */}
                 <div className="Researchers">
-                    Seon Gyeom Kim, Jae Young Choi
+                    Seon Gyeom Kim, Jae Young Choi, Jaeryung Chung
                 </div>
                 <div className="links">
                     <a href="https://groundedchartgeneration.github.io/" target="_blank" rel="noreferrer" className="link">Project Website</a>

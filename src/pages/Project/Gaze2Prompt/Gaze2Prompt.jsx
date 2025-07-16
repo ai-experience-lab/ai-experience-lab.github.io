@@ -15,7 +15,7 @@ function Gaze2Prompt() {
             <div className="Subtitle">Seeing the World Through AI's Eyes</div>
 
             <div className="Researchers">
-                Seon Gyeom Kim, Jae Young Choi
+                Jae Young Choi, Seon Gyeom Kim
             </div>
             {/* 
                 <div className="links">

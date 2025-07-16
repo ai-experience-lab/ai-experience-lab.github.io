@@ -12,7 +12,7 @@ function WrightHere() {
             <div className="Title">WrightHere</div>
             <div className="Subtitle">Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</div>
             <div className="Researchers">
-                Jae Ryoung Chung, Seon Gyeom Kim
+                Jaeryung Chung, Seon Gyeom Kim
             </div>
             <div className="Remarks">
                 Late-break-Work @ CHI 2025
