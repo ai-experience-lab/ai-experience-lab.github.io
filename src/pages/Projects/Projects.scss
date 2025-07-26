@@ -32,6 +32,10 @@
                 overflow: hidden;
                 border-radius: 0.5rem;
                 border:1px solid #eee;
+                a {
+                    line-height:0; 
+                    vertical-align: middle;
+                }
                 img {
                     width: 100%;
                     aspect-ratio: 1/1;

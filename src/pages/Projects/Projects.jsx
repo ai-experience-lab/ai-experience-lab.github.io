@@ -31,7 +31,7 @@ function Projects() {
         <li className="project">
           <div className="image">
             <a href="#/project/Chart2Experience">
-              <img src={chart2experience} alt="c2e_image"/>
+              <img src={chart2experience} alt="c2e_image" />
             </a>
           </div>
           <div className="title">
@@ -43,7 +43,7 @@ function Projects() {
         <li className="project">
           <div className="image">
             <a href="#/project/GroundedChart">
-              <img src={grounded} style={{ "objectPosition": "center center"}} alt=""/>
+              <img src={grounded} style={{ "objectPosition": "center center" }} alt="" />
             </a>
           </div>
           <div className="title">
@@ -54,7 +54,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <a href="#/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} alt=""/></a>
+            <a href="#/project/InTalk"><img src={intalk} style={{ "objectPosition": "center center", "objectFit": "contain" }} alt="" /></a>
           </div>
           <div className="title">
             <a href="#/project/InTalk">InTalk: Voice-Enabled Chatbot for Medical Pre-Consultation</a>
@@ -64,7 +64,7 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Lifegraphy"><img src={lifegraphy} alt=""/></a>
+            <a href="#/project/Lifegraphy"><img src={lifegraphy} alt="" /></a>
           </div>
           <div className="title">
             <a href="#/project/Lifegraphy">Lifegraphy: Chatting with Virtual Customer Personas
@@ -75,45 +75,45 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} alt=""/>
-          </a>
+            <a href="#/project/Skulpt"><img src={skulpt} style={{ "objectPosition": "center center" }} alt="" />
+            </a>
           </div>
           <div className="title">
-          <a href="#/project/Skulpt">SKULPT: Facial Reconstruction from Human Skull
-          </a>
+            <a href="#/project/Skulpt">SKULPT: Facial Reconstruction from Human Skull
+            </a>
             <span className="time">2024-2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Gaze2Prompt"><img src={gaze} alt=""/></a>
+            <a href="#/project/Gaze2Prompt"><img src={gaze} alt="" /></a>
           </div>
           <div className="title">
-          <a href="#/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
+            <a href="#/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-          <a href="#/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} alt=""/>
-          </a>
+            <a href="#/project/HistoChat"><img src={histochat} style={{ "objectPosition": "center center" }} alt="" />
+            </a>
           </div>
           <div className="title">
-          <a href="#/project/HistoChat">HistoChat: Leveraging AI-Driven Historical Personas for Personalized and
-            Engaging Middle School History Education</a>
+            <a href="#/project/HistoChat">HistoChat: Leveraging AI-Driven Historical Personas for Personalized and
+              Engaging Middle School History Education</a>
             <span className="time">2025</span>
           </div>
         </li>
 
         <li className="project">
           <div className="image">
-          <a href="#/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} alt=""/>
-          </a>
+            <a href="#/project/WrightHere"><img src={wrighthere} style={{ "objectPosition": "center right" }} alt="" />
+            </a>
           </div>
           <div className="title">
-          <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
+            <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
             <span className="time">2024-2025</span>
           </div>
         </li>
@@ -125,8 +125,8 @@ function Projects() {
       <ul className="projectList">
         <li className="project">
           <div className="image">
-          <a href="#/project/IITP"><img src={iitp} alt=""/>
-          </a>
+            <a href="#/project/IITP"><img src={iitp} alt="" />
+            </a>
           </div>
           <div className="title">
             <a href="#/project/IITP">Data Visualization for Alleviating Stress of Emotional Labor Over the Phone
@@ -137,12 +137,12 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Fush"><img src={fush} alt=""/></a>
+            <a href="#/project/Fush"><img src={fush} alt="" /></a>
           </div>
           <div className="title">
-          <a href="#/project/Fush">
-            Future Home for Family
-          </a>
+            <a href="#/project/Fush">
+              Future Home for Family
+            </a>
             <span className="time">2022-2024</span>
           </div>
           {/* <div className="description">
@@ -158,11 +158,11 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/skully"><img src={skully} alt=""/></a>
+            <a href="#/project/skully"><img src={skully} alt="" /></a>
           </div>
           <div className="title">
-          <a href="#/project/skully">
-            Interactive Gender Estimation of Human Skull
+            <a href="#/project/skully">
+              Interactive Gender Estimation of Human Skull
             </a>
             <span className="time">2022-2025</span>
           </div>
@@ -178,11 +178,13 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-            <img src={ids} alt=""/>
+            <a href="#/project/ids">
+              <img src={ids} alt="" />
+            </a>
           </div>
           <div className="title">
-          <a href="#/project/IDS">
-            AI-supported Tools for Authoring Immersive Data Storytelling
+            <a href="#/project/IDS">
+              AI-supported Tools for Authoring Immersive Data Storytelling
             </a>
             <span className="time">2021-2024</span>
           </div>
@@ -201,13 +203,13 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Korail">
-            <img src={korail} alt=""/>
+            <a href="#/project/Korail">
+              <img src={korail} alt="" />
             </a>
           </div>
           <div className="title">
-          <a href="#/project/Korail">
-            Interactive Dashboard for High-Speed Train Safety Management
+            <a href="#/project/Korail">
+              Interactive Dashboard for High-Speed Train Safety Management
             </a>
             <span className="time">2021</span>
           </div>
@@ -222,13 +224,13 @@ function Projects() {
 
         <li className="project">
           <div className="image">
-          <a href="#/project/Maehwasoo">
-            <img src={maehwasoo} alt=""  style={{ "objectPosition": "center center" }}/>
-          </a>
+            <a href="#/project/Maehwasoo">
+              <img src={maehwasoo} alt="" style={{ "objectPosition": "center center" }} />
+            </a>
           </div>
           <div className="title">
-          <a href="#/project/Maehwasoo">
-            MaeHwaSoo - Interactive Curriculum Explorer for College Students
+            <a href="#/project/Maehwasoo">
+              MaeHwaSoo - Interactive Curriculum Explorer for College Students
             </a>
             <span className="time">2021</span>
           </div>
