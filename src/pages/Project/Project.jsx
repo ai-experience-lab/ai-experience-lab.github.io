@@ -7,6 +7,7 @@ import Skulpt from "./Skulpt/Skulpt";
 import Gaze2Prompt from "./Gaze2Prompt/Gaze2Prompt";
 import HistoChat from "./HistoChat/HistoChat";
 import WrightHere from "./WrightHere/WrightHere";
+import LIGS from "./LIGS/LIGS";
 
 import IITP from "./IITP/IITP";
 import Fush from "./Fush/Fush";
@@ -28,6 +29,7 @@ function Project() {
         "Gaze2Prompt": <Gaze2Prompt/>,
         "HistoChat": <HistoChat/>,
         "WrightHere": <WrightHere/>,
+        "LIGS": <LIGS/>,
         "IITP": <IITP/>,
         "Fush": <Fush/>,
         "skully": <Skully/>,

@@ -13,6 +13,7 @@ import skulpt from "../../images/project_photo/skulpt.jpeg";
 import gaze from "../../images/project_photo/gaze.png";
 import histochat from "../../images/project_photo/histochat-square2.png";
 import wrighthere from "../../images/project_photo/wrighthere.png";
+import LIGS from "../../images/project_photo/LIGS.png";
 
 
 import "./Projects.scss";
@@ -115,6 +116,18 @@ function Projects() {
           <div className="title">
             <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
             <span className="time">2024-2025</span>
+          </div>
+        </li>
+
+        <li className="project">
+          <div className="image">
+            <a href="#/project/LIGS"><img src={LIGS} style={{ "objectPosition": "center right" }} alt="" />
+            </a>
+          </div>
+          <div className="title">
+            <a href="#/project/LIGS">LIGS: LLM-infused Game System for Emergent
+            Narrative</a>
+            <span className="time">2025</span>
           </div>
         </li>
       </ul>
