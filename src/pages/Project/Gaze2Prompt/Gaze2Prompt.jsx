@@ -10,7 +10,9 @@ function Gaze2Prompt() {
             <div className="Date">
                 <div className="ProjectDateTitle">2025</div>
             </div>
-            
+            <div className="Remarks">
+                Accepted to Ubicomp Companion 2025
+            </div>
             <div className="Title">Gaze2Prompt</div>
             <div className="Subtitle">Seeing the World Through AI's Eyes</div>
 

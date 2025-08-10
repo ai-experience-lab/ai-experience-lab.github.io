@@ -20,6 +20,21 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                <a href="" target="_blank" rel="noreferrer">
+                  Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs
+                </a>
+              </div>
+              <div className="description">
+                Accepted @ Ubicomp Companion 2025
+              </div>
+              <div className="authors">
+                <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Jaywoong Jung, Ryan Rossi, Jihyung Kil, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 <a href="https://groundedchartgeneration.github.io/" target="_blank" rel="noreferrer">
                 Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity
                 </a>
