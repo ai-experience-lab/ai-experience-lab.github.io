@@ -22,7 +22,6 @@ function About() {
                 </div> */}
 
                
-
                 
                 <h3>Without data, modern products have no pulse</h3>
                 <p className="">
@@ -48,7 +47,7 @@ function About() {
                 </p>
 
                 <p className="korean-version">
-                    AI 기술은 종종 디자이너를 위한 편리한 도구로 인식됩니다. 그런 관점이 나름의 가치를 가지고 있지만, 디자이너를 기술의 수동적 수혜자로 머물게 하며 디자인 역사의 선구자들의 정신과는 거리가 멉니다. 반면, Louis Kahn의 인용구에서 영감을 받아, 우리는 AI를 <b>디자인 재료</b>로 접근합니다 - 적극적으로 해부하고, 검토하고, 형성하고, 참여할 수 있는 무언가로 말입니다. 이러한 사고방식은 우리가 <b>디자인을 통해 AI의 힘을 진정으로 활용하는</b> 새로운 프로세스를 만들어내도록 이끕니다.
+                    대다수의 디자이너들에게 AI 기술은 기존에 하던 작업을 도와주는 편리한 도구로 인식됩니다. 그런 관점도 나름의 가치를 가지고 있지만, 디자이너를 자칫 기술의 수동적 수혜자로 머물게 하기 때문에 디자인 역사 속 선구자들의 인식과는 궤를 달리 합니다. 벽돌에게 "넌 무엇이 되고 싶니?"라고 묻는 건축가 Louis Kahn의 자세에서 영감을 받아, 우리는 AI를 적극적으로 해부하고, 분석하며, 그 가능성을 모색하는 <b>재료</b>로 다룹니다. 이를 통해 <b>디자인을 통해 AI의 힘을 진정으로 활용하고 (디자이너뿐만 아니라) 세상을 이롭게 하는</b> 도구와 프로세스, 시스템을 만들어갑니다. 
                 </p>
 
                 <h3>Designing beyond Form-Giving</h3>
@@ -62,7 +61,7 @@ function About() {
                 </p>
 
                 <p className="korean-version">
-                    디자인 역사에서 "조형" - 아이디어에 모양, 구조, 명확성을 부여하는 것은 디자이너의 핵심 역할입니다. 모더니즘 전통에 뿌리를 둔 이 유산은 제품이 정적이고, 명확한 경계를 갖으며, 시각적 완성도가 높은 것을 지향합니다. 하지만 AI 시대의 제품은 적응형 시스템, AI 에이전트 등으로 구성되죠. 특히 AI는 눈에 보이는 인터페이스 없이도 제품을 사용할 수 있게 하고, 학습을 통해 진화하며, 인간 / 비인간 이해관계자들이 함께 의미를 만들어냅니다. 이러한 환경에서 우리는 디자이너의 역할을 전통적인 조형 활동보다는, 시스템이 스스로 학습하고 성장하는 방식을 규정하는 데에서 찾습니다. 
+                    "조형" - 즉 아이디어에 모양, 구조, 명확성을 부여하는 활동은 디자인의 본질로 인식됩니다. 이는 제품이 정적이고, 명확한 경계를 갖으며, 시각적 완성도가 높던 과거에는 아주 유용한 관점이었습니다. 하지만 이제는 적응형 시스템, 추천엔진, 챗봇이 눈에 보이는 인터페이스 없이도 사용자와 상호작용하고, 학습을 통해 진화하며, 인간/비인간 이해관계자들이 함께 가치를 만들어갑니다. 우리는 디자이너의 역할을 전통적인 조형 활동에서 그치지 않고, 시스템이 스스로 학습하고 성장하는 논리 구조를 설계하는 과정으로 확장합니다. 
                 </p>
 
                 <h3>Toward Post-Human Design</h3>
@@ -70,7 +69,7 @@ function About() {
                 Traditional design has long been centered on human needs, desires, and experiences. This anthropocentric foundation, known as Human-Centered Design (HCD), emerged as a powerful correction of technocratic, engineering-driven processes. It empowered designers to advocate for empathy, usability, and user rights. Yet as we enter an era defined by AI in deeply entangled systems, the limitations of human-centeredness become clear. Who counts as a stakeholder in a world where machines learn, environments respond, and nonhuman lives are impacted by design choices? What does it mean to design when "the user" is no longer the sole or even primary participant? A posthuman design agenda does not seek to erase the human, but to resituate design within a world of interconnected, evolving, and more-than-human actors. It urges us to move beyond user-centric thinking and into a practice of relational, systemic, and ethical world-building. 
                 </p>
                 <p className="korean-version">
-                전통적인 디자인은 인간의 필요, 욕구, 경험을 최적화하는데 집중하였고, 이는 ‘인간 중심 디자인(Human-Centered Design, HCD)’이라는 이름으로 정립되어, 결핍된 공감, 사용성, 사용자 권리와 같이 기술 중심 사회에 결핍된 가치를 증진해 왔습니다. 하지만 인공지능이 학습하고, 환경이 반응하며, 비인간 생명체까지도 디자인 선택의 영향을 받는 복잡계 속에서, “인간 사용자”가 더 이상 유일하거나 주요한 참여자가 아닐 수 있습니다. 그런 점에서, 포스트휴먼 디자인의 목적은 인간을 지우려는 것이 아니라, 인간을 넘어서는 다양한 행위자들이 존재하는 세계 속에서 디자인의 위치를 재정립하고자 합니다. 
+                인간 중심 디자인(Human-Centered Design, HCD)은 인간의 경험과 가치에 초점을 두고, (기술 중심 사회에 결핍된) 공감, 사용성, 사용자 권리와 같은 가치를 증진해 왔습니다. 그러나 인공지능이 학습하고, 환경이 반응하며, 비인간 생명체까지도 디자인 선택의 영향을 받는 복잡계 속에서, "인간 사용자"는 더 이상 유일한 (심지어는 가장 중요한) 이해당사자가 아닐 수도 있습니다. 로봇, 인공지능, 동식물, 지구, 심지어 가상의 인격체를 위한 디자인이 가능할까요? 우리는 포스트휴먼 디자인을 통해, 인간을 포함한 다양한 객체들이 공존하는 세상 속에서 디자인의 역할을 재정립하고자 합니다. 
                 </p>
                 
             </div>
