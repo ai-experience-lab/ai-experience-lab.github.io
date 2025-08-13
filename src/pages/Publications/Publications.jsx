@@ -20,8 +20,24 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                <a href="https://youtu.be/cMDp2FHnG8k" target="_blank" rel="noreferrer">                  
+                  SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline
+                </a>
+              </div>
+              <div className="description">
+                WiCV Workshop @ CVPR 2025
+              </div>
+              <div className="authors">
+                <em>Maida Aizaz, Khadija Rajabova, Seon Gyeom Kim,</em> Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 <a href="https://groundedchartgeneration.github.io/" target="_blank" rel="noreferrer">
-                Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity
+                  Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity
                 </a>
               </div>
               <div className="description">
@@ -36,7 +52,7 @@ function Publications() {
             <div className="bib-item">
               <div className="title">
                 <a href="" target="_blank" rel="noreferrer">
-                “HistoChat”: Leveraging AI-Driven Historical Personas for Personalized and Engaging Middle School History Education
+                  “HistoChat”: Leveraging AI-Driven Historical Personas for Personalized and Engaging Middle School History Education
                 </a>
               </div>
               <div className="description">
@@ -193,7 +209,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                ICML 2023 workshop on AI&HCI 
+                ICML 2023 workshop on AI&HCI
               </div>
               <div className="authors">
                 <em>Seungho Baek</em>, Hyerin Im, Jiseung Ryu, <em>Juhyeong Park</em>, and <em>Takyeon Lee</em>
