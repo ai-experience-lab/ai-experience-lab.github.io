@@ -104,7 +104,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Extended Abstract @ CHI 2025
+                Late-breaking-Work @ CHI 2025
               </div>
               <div className="authors">
                 Heejae Bae, Nayeong Kim, Sehee Lee, and <em>Tak Yeon Lee</em>
@@ -120,7 +120,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Extended Abstract @ CHI 2025
+                Late-breaking-Work @ CHI 2025
               </div>
               <div className="authors">
                 <em>Jin Jeong</em>, and <em>Tak Yeon Lee</em>
@@ -136,7 +136,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Extended Abstract @ CHI 2025
+                Late-breaking-Work @ CHI 2025
               </div>
               <div className="authors">
                 <em>Jaeryung Chung</em>, <em>Seon Gyeom Kim</em>, and <em>Tak Yeon Lee</em>
