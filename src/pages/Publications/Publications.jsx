@@ -36,7 +36,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="pdf/Gaze2Prompt__Turning_Eye_Tracking_Data_into_Visual_Prompts_for_Multimodal_LLMs.pdf" target="_blank" rel="noreferrer">
                   Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs
                 </a>
               </div>
