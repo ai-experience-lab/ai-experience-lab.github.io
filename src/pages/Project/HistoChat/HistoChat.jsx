@@ -16,7 +16,7 @@ function HistoChat() {
             <div className="Title">HistoChat</div>
             <div className="Subtitle">Bringing History to Life with AI Personas</div>
                 <div className="Researchers">
-                    HyunSeung Moon
+                 Yeon Soo Kim, <em>Hyun Seung Moon</em>, Sangsu Lee, <em>Tak Yeon Lee</em>
                 </div>
         </div>
         <div className="MainContent">
