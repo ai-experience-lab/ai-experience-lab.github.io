@@ -1,3 +1,4 @@
+import img0 from "./histochat-teaser.jpeg";
 import img1 from "./HistoChat1.png";
 import img2 from "./HistoChat2.png";
 import img3 from "./HistoChat3.png";
@@ -20,7 +21,7 @@ function HistoChat() {
         </div>
         <div className="MainContent">
             <div className="ImageBox">
-                <img src={img2} alt="" />
+                <img src={img0} alt="" />
             </div>
             <div className="halfColumn">
                 <p>History education often struggles to connect with students on a personal level, leaving many feeling disengaged and reducing complex past events to a series of dates and facts. Imagine if students could actually converse with historical figures, delving into their thoughts, motivations, and the dilemmas they faced. This isn't science fiction anymore. A new approach, called HistoChat, is exploring how AI-driven historical personas can transform middle school history education, fostering empathy and making learning more dynamic and meaningful.</p>

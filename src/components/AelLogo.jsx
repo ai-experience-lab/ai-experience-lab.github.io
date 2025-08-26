@@ -1,6 +1,6 @@
 function AelLogo() {
   return (
-    <img src="ael-circle.svg" alt="logo"/>
+    <img src="ael-circle.png" alt="logo"/>
   );
 }
 
