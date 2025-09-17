@@ -11,6 +11,8 @@ import hyunseungmoon_image from "../../images/member_photo/hyunseungmoon.jpg";
 import jaeyoungchoi_image from "../../images/member_photo/jaeyoungchoi.jpg";
 import hyunlee_image from "../../images/member_photo/hyunlee.jpeg";
 import jaeryungchung_image from "../../images/member_photo/jaeryungchung.jpg";
+import donggunlee_image from "../../images/member_photo/donggunlee.png";
+import yoonjaeoh_image from "../../images/member_photo/yoonjaeoh.jpg";
 
 import "./People.scss";
 
@@ -89,6 +91,24 @@ function People() {
           <a href="https://www.linkedin.com/in/jaeryungchung">LinkedIn</a>
         </div>
       </li>
+      <li>
+        <a><img src={donggunlee_image} alt="donggunlee_image"/></a>
+        <div className="name kr">이동건</div>
+        <div className="name">Donggun, Lee</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+        jlee4330@kaist.ac.kr
+        </div>
+      </li>
+      <li>
+        <a><img src={yoonjaeoh_image} alt="yoonjaeoh_image"/></a>
+        <div className="name kr">오윤재</div>
+        <div className="name">Yoonjae, Oh</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+        angelaoh@kaist.ac.kr
+        </div>
+      </li>
 
     </ul>
 
@@ -133,7 +153,7 @@ function People() {
         <img src={jinjeong_image} alt="jin_image"/>
         <div className="name kr">정진</div>
         <div className="name">Jin, Jeong</div>
-        <div className="role">Master Student</div>
+        <div className="role">MSc.</div>
         <div className="email">
           tasa2000@kaist.ac.kr
         </div>
