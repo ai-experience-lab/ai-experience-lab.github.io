@@ -125,7 +125,7 @@ function Projects() {
             </a>
           </div>
           <div className="title">
-            <a href="#/project/LIGS">LIGS: LLM-infused Game System for Emergent
+            <a href="#/project/LIGS">In the Cabin: LLM-infused Game System for Emergent
             Narrative</a>
             <span className="time">2025</span>
           </div>

@@ -6,7 +6,7 @@ function About() {
     return (    
         <div className="page About">
             <div className="pageTitle">
-                About us
+                  
             </div>
             <div className="halfColumn">
                 <p>

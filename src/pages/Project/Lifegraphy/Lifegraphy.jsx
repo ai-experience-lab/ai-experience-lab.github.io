@@ -8,7 +8,7 @@ function Lifegraphy(){
                     <div className="ProjectDateTitle">2024-2025</div>
                 </div>
                 <div className="Title">Lifegraphy</div>
-                <div className="Subtitle">AI-Powered Voice-based Medical Interviews</div>
+                <div className="Subtitle">Chatting with Virtual Customer Personas</div>
                 {/* 
                 <div className="Researchers">
                     Seon Gyeom Kim, Jae Young Choi
@@ -20,12 +20,15 @@ function Lifegraphy(){
                 
             </div>
             <div className="MainContent">
-                <div className="ImageBox" style={{width: "70%", margin: "0 auto"}}>
+                {/* <div className="ImageBox" style={{width: "70%", margin: "0 auto"}}>
                     <center>
                         <video width="100%" controls>
                             <source src={`${process.env.PUBLIC_URL}/uist_2.mp4`} type="video/mp4" />
                         </video>
                     </center>
+                </div> */}
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UmMJp7siCTM?si=u88EkBKNHG7ETvOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className="halfColumn">
 

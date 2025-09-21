@@ -8,7 +8,7 @@ function LIGS() {
             <div className="Date">
                 <div className="ProjectDateTitle">2025</div>
             </div>
-            <div className="Title">LIGS</div>
+            <div className="Title">In the Cabin</div>
             <div className="Subtitle">Developing an LLM-infused Game System for Emergent
                 Narrative</div>
 

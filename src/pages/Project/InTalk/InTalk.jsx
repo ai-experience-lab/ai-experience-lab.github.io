@@ -10,7 +10,7 @@ function InTalk() {
                     <div className="ProjectDateTitle">2025</div>
                 </div>
                 <div className="Title">InTalk</div>
-                <div className="Subtitle">AI-Powered Voice-based Medical Interviews</div>
+                <div className="Subtitle">Voice-Enabled Chatbot for Medical Pre-Consultation</div>
                 {/* 
                 <div className="Researchers">
                     Seon Gyeom Kim, Jae Young Choi
