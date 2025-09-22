@@ -1,4 +1,4 @@
-import img1 from "./UI.jpeg";
+//import img1 from "./UI.jpeg";
 import LIGS_VIDEO from './LIGS.mp4';
 
 

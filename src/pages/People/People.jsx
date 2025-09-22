@@ -46,16 +46,19 @@ function People() {
             ksg_0320@kaist.ac.kr
           </div>
           <div className="website">
-            <a href="https://kimseongyeom.github.io/">website</a>
+            <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
         <li>
-          <img src={hyunseungmoon_image} alt="hyunseung_image"/>
+          <a href="https://hyunseungmoon.net" target='_blank' rel="noreferrer"><img src={hyunseungmoon_image} alt="hyunseung_image"/></a>
           <div className="name kr">문현승</div>
           <div className="name">HyunSeung, Moon</div>
           <div className="role">PhD Student</div>
           <div className="email">
             mzes0401@kaist.ac.kr
+          </div>
+          <div className="website">
+            <a href="https://hyunseungmoon.net" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
       </ul>
@@ -70,7 +73,7 @@ function People() {
           jaeyoungchoi@kaist.ac.kr 
           </div>
           <div className="website">
-            <a href="https://jaeyoungchoi1.github.io/">website</a>
+            <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
         <li>
@@ -82,7 +85,7 @@ function People() {
           hyunini0408@kaist.ac.kr 
           </div>
           <div className="website">
-            <a href="https://hyun-lee.web.app/">website</a>
+            <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
         <li>
@@ -94,7 +97,7 @@ function People() {
           jhyun513@kaist.ac.kr
           </div>
           <div className="website">
-            <a href="https://www.linkedin.com/in/jaeryungchung">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer">LinkedIn</a>
           </div>
         </li>
         <li>

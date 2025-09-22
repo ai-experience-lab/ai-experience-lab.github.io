@@ -1,6 +1,6 @@
 import "./About.scss";
-import AelLogo from "../../components/AelLogo.jsx";
-import LouisKahn from "./louiskahn.jpeg";
+//import AelLogo from "../../components/AelLogo.jsx";
+//import LouisKahn from "./louiskahn.jpeg";
 
 function About() {
     return (    

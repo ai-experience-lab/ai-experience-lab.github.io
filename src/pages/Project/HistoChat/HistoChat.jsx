@@ -1,6 +1,6 @@
 import img0 from "./histochat-teaser.jpeg";
 import img1 from "./HistoChat1.png";
-import img2 from "./HistoChat2.png";
+//import img2 from "./HistoChat2.png";
 import img3 from "./HistoChat3.png";
 
 
