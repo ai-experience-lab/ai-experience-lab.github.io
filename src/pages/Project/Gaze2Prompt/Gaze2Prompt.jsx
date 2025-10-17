@@ -1,6 +1,7 @@
 import img1 from "./Gaze2Prompt1.png";
 import img2 from "./Gaze2Prompt2.png";
 import img3 from "./Gaze2Prompt3.png";
+import { FaAward } from "react-icons/fa";
 
 function Gaze2Prompt() {
 
@@ -11,7 +12,7 @@ function Gaze2Prompt() {
                 <div className="ProjectDateTitle">2025</div>
             </div>
             <div className="Remarks">
-                Accepted to Ubicomp Companion 2025
+                <FaAward/> Best Poster Awarded @ Ubicomp Companion 2025
             </div>
             <div className="Title">Gaze2Prompt</div>
             <div className="Subtitle">Seeing the World Through AI's Eyes</div>

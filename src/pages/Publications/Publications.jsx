@@ -41,7 +41,10 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Accepted @ Ubicomp Companion 2025
+                Best Poster Award @ Ubicomp Companion 2025
+                <span className="acknowledgement">
+                  <FaAward className="award" />
+                </span>
               </div>
               <div className="authors">
                 <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Jaywoong Jung, Ryan Rossi, Jihyung Kil, and <em>Tak Yeon Lee</em>
