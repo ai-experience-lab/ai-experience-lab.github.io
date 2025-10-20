@@ -89,7 +89,7 @@ function People() {
           </div>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} alt="jaeryung_image"/></a>
+          <a href="https://jaeryungchung.github.io" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} alt="jaeryung_image"/></a>
           <div className="name kr">정재령 </div>
           <div className="name">Jaeryung, Chung</div>
           <div className="role">Master Student</div>
@@ -97,7 +97,7 @@ function People() {
           jhyun513@kaist.ac.kr
           </div>
           <div className="website">
-            <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer">LinkedIn</a>
+            <a href="https://jaeryungchung.github.io" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
         <li>
