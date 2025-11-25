@@ -47,7 +47,7 @@ function Publications() {
                 </span>
               </div>
               <div className="authors">
-                <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Jaywoong Jung, Ryan Rossi, Jihyung Kil, and <em>Tak Yeon Lee</em>
+                <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, <em>Jaywoong Jeong</em>, Ryan Rossi, Jihyung Kil, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
