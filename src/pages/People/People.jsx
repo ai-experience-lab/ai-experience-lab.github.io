@@ -108,6 +108,9 @@ function People() {
           <div className="email">
           jlee4330@kaist.ac.kr
           </div>
+          <div className="website">
+            <a href="https://donggunlee0.com/" target='_blank' rel="noreferrer">website</a>
+          </div>
         </li>
         <li>
           <a><img src={yoonjaeoh_image} alt="yoonjaeoh_image"/></a>
