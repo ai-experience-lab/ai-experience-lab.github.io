@@ -210,9 +210,7 @@ function People() {
           <img src={jinjeong_image} alt="jin_image"/>
           <div className="name kr">정진</div>
           <div className="name">Jin, Jeong</div>
-          <div className="role">MSc. 2025</div>
-          <div className="email">
-            tasa2000@kaist.ac.kr<br/>
+          <div className="role">MSc. 2025<br/>
             Military Duty
           </div>
         </li>
