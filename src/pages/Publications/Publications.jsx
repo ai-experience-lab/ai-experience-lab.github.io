@@ -16,6 +16,38 @@ function Publications() {
 
       <div className="halfColumn">
         <div className="year">2025</div>
+
+        <ul className="publicationList">
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                  Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
+              </div>
+              <div className="description">
+                Poster @ CHI 2026
+              </div>
+              <div className="authors">
+                <em>Hyun Lee</em>, <em>Yoonjae Oh</em>, <em>Hyun Seung Moon</em>, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                  Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition
+              </div>
+              <div className="description">
+                PacificVis 2026
+              </div>
+              <div className="authors">
+                <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Hyungjun Yoon, Taeckyung Lee, <em>Donggun Lee</em>, <em>Jaeryung Chung</em>, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <div className="year">2025</div>
         <ul className="publicationList">
           <li>
             <div className="bib-item">
@@ -59,7 +91,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Accepted @ IEEE VIS 2025
+                IEEE VIS 2025
               </div>
               <div className="authors">
                 <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Yuseung Lee, <em>Jaeryung Chung</em>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and <em>Tak Yeon Lee</em>
@@ -74,7 +106,7 @@ function Publications() {
                 </a>
               </div>
               <div className="description">
-                Accepted @ ACM CSCW 2025
+                ACM CSCW 2025
               </div>
               <div className="authors">
                 Yeon Soo Kim, <em>Hyun Seung Moon</em>, Sangsu Lee, and <em>Tak Yeon Lee</em>
