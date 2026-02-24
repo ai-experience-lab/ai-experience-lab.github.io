@@ -20,6 +20,7 @@ import subincho_image from "../../images/member_photo/subincho.png";
 import jaywoong_image from "../../images/member_photo/jaywoong.png";
 import placeholder_image from "../../images/member_photo/placeholder.png";
 import yoon_image from "../../images/member_photo/yoon.png";
+import seo_image from "../../images/member_photo/seo.png";
 
 import "./People.scss";
 
@@ -108,7 +109,7 @@ function People() {
           </div>
         </li>
         <li>
-          <a><img src={donggunlee_image} alt="donggunlee_image"/></a>
+          <a href="https://donggunlee0.com/" target='_blank' rel="noreferrer"><img src={donggunlee_image} alt="donggunlee_image"/></a>
           <div className="name kr">이동건</div>
           <div className="name">Donggun, Lee</div>
           <div className="role">Master Student</div>
@@ -128,7 +129,18 @@ function People() {
           angelaoh@kaist.ac.kr
           </div>
         </li>
-
+        <li>
+          <a href="https://seohyeyeon.myportfolio.com/work" target='_blank' rel="noreferrer"><img src={seo_image} alt="seo_image"/></a>
+          <div className="name kr">서혜연</div>
+          <div className="name">Hyeyeon, Seo</div>
+          <div className="role">Master Student</div>
+          <div className="email">
+            hseo01@kaist.ac.kr
+          </div>
+          <div className="website">
+            <a href="https://seohyeyeon.myportfolio.com/work" target='_blank' rel="noreferrer">website</a>
+          </div>
+        </li>
       </ul>
 
       <h3>Undergraduate Interns</h3>
