@@ -21,10 +21,44 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                  Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
+                Toward Flexible Psychiatric History-Taking and Visualization: Exploring Clinician Perspectives with Large Language Models
               </div>
               <div className="description">
-                Poster @ CHI 2026
+                Full Paper @ CHI 2026
+              </div>
+              <div className="authors">
+                Yugyeong Jung,
+                Thu Hoang Anh Vo,
+                <em>Hyun Seung Moon</em>,
+                <em>Jae Young Choi</em>,
+                Hyangkyeong Oh,
+                Ujin Lee,
+                Eunjoo Kim,
+                <em>Tak Yeon Lee</em>,
+                Uichin Lee
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                Designing for Deliberate User Engagement with Distorted Information in Conversational Search
+              </div>
+              <div className="description">
+                Full Paper @ CHI 2026
+              </div>
+              <div className="authors">
+                Sohyun Park, <em>Tak Yeon Lee</em>, and Woohun Lee
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                Toward Flexible Psychiatric History-Taking and Visualization: Exploring Clinician Perspectives with Large Language Models
+              </div>
+              <div className="description">
+                Full Paper @ CHI 2026
               </div>
               <div className="authors">
                 <em>Hyun Lee</em>, <em>Yoonjae Oh</em>, <em>Hyun Seung Moon</em>, and <em>Tak Yeon Lee</em>
@@ -34,10 +68,23 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                  Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition
+                Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
               </div>
               <div className="description">
-                PacificVis 2026
+                Late-Breaking-Work @ CHI 2026
+              </div>
+              <div className="authors">
+                <em>Hyun Lee</em>, <em>Yoonjae Oh</em>, <em>Hyun Seung Moon</em>, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition
+              </div>
+              <div className="description">
+                Full Paper @ PacificVis 2026
               </div>
               <div className="authors">
                 <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Hyungjun Yoon, Taeckyung Lee, <em>Donggun Lee</em>, <em>Jaeryung Chung</em>, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and <em>Tak Yeon Lee</em>
@@ -52,7 +99,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://youtu.be/cMDp2FHnG8k" target="_blank" rel="noreferrer">                  
+                <a href="https://youtu.be/cMDp2FHnG8k" target="_blank" rel="noreferrer">
                   SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline
                 </a>
               </div>
@@ -64,7 +111,7 @@ function Publications() {
               </div>
             </div>
           </li>
-          
+
           <li>
             <div className="bib-item">
               <div className="title">
