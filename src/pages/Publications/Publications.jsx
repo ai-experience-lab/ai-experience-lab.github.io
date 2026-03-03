@@ -15,7 +15,7 @@ function Publications() {
       </div>
 
       <div className="halfColumn">
-        <div className="year">2025</div>
+        <div className="year">2026</div>
 
         <ul className="publicationList">
           <li>
@@ -55,23 +55,10 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                Toward Flexible Psychiatric History-Taking and Visualization: Exploring Clinician Perspectives with Large Language Models
-              </div>
-              <div className="description">
-                Full Paper @ CHI 2026
-              </div>
-              <div className="authors">
-                <em>Hyun Lee</em>, <em>Yoonjae Oh</em>, <em>Hyun Seung Moon</em>, and <em>Tak Yeon Lee</em>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="bib-item">
-              <div className="title">
                 Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
               </div>
               <div className="description">
-                Late-Breaking-Work @ CHI 2026
+                Poster @ CHI 2026
               </div>
               <div className="authors">
                 <em>Hyun Lee</em>, <em>Yoonjae Oh</em>, <em>Hyun Seung Moon</em>, and <em>Tak Yeon Lee</em>
@@ -84,7 +71,7 @@ function Publications() {
                 Evaluating Visual Prompts with Eye-Tracking Data for MLLM–Based Human Activity Recognition
               </div>
               <div className="description">
-                Full Paper @ PacificVis 2026
+                VisNotes @ PacificVis 2026
               </div>
               <div className="authors">
                 <em>Jae Young Choi</em>, <em>Seon Gyeom Kim</em>, Hyungjun Yoon, Taeckyung Lee, <em>Donggun Lee</em>, <em>Jaeryung Chung</em>, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and <em>Tak Yeon Lee</em>
