@@ -21,6 +21,8 @@ import jaywoong_image from "../../images/member_photo/jaywoong.png";
 import placeholder_image from "../../images/member_photo/placeholder.png";
 import yoon_image from "../../images/member_photo/yoon.png";
 import seo_image from "../../images/member_photo/seo.png";
+import maida_image from "../../images/member_photo/maida.png";
+import kadijah_image from "../../images/member_photo/kadijah.png";
 
 import "./People.scss";
 
@@ -232,7 +234,7 @@ function People() {
           <img src={seunghobaek_image} alt="seungho_image"/>
           <div className="name kr">백승호</div>
           <div className="name">Seungho Baek</div>
-          <div className="role">Intern 2023
+          <div className="role">Intern 2022
           </div>
           <div className="website">
             <a href="https://thestar.notion.site/e6f6b641bd8f493085e5f044182dcae3" target='_blank' rel="noreferrer">website</a>
@@ -275,26 +277,26 @@ function People() {
           <div className="name">Yoojin Hong</div>
           <div className="role">Intern 2023
           </div>
-        </li>        
+        </li>
+        <li>
+          <img src={maida_image} alt="maida_image"/>
+          <div className="name kr">마이다</div>
+          <div className="name">Maida Aizaz</div>
+          <div className="role">Intern 2023
+          </div>
+        </li>
+        <li>
+          <img src={kadijah_image} alt="kadijahrajavova_image"/>
+          <div className="name kr">카디자</div>
+          <div className="name">Kadijah Rajabova</div>
+          <div className="role">Intern 2024
+          </div>
+        </li>
         <li>
           <img src={placeholder_image} alt="suyounlee_image"/>
           <div className="name kr">이수연</div>
           <div className="name">Suyoun Lee</div>
           <div className="role">Intern 2024
-          </div>
-        </li>
-        <li>
-          <img src={placeholder_image} alt="kadijahrajavova_image"/>
-          <div className="name kr">카디자</div>
-          <div className="name">Kadijah Rajavova</div>
-          <div className="role">Intern 2025
-          </div>
-        </li>
-        <li>
-          <img src={placeholder_image} alt="maida_image"/>
-          <div className="name kr">마이다</div>
-          <div className="name">Maida Aizaz</div>
-          <div className="role">Intern 2025
           </div>
         </li>
         <li>
