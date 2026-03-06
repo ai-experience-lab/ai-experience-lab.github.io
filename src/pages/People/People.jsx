@@ -289,7 +289,7 @@ function People() {
         <li>
           <img src={kadijah_image} alt="kadijahrajavova_image"/>
           <div className="name kr">카디자</div>
-          <div className="name">Kadijah Rajabova</div>
+          <div className="name">Khadija Rajabova</div>
           <div className="role">Intern 2024
           </div>
         </li>
