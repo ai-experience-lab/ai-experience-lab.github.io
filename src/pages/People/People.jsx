@@ -23,6 +23,7 @@ import yoon_image from "../../images/member_photo/yoon.png";
 import seo_image from "../../images/member_photo/seo.png";
 import maida_image from "../../images/member_photo/maida.png";
 import kadijah_image from "../../images/member_photo/kadijah.png";
+import yoojin_image from "../../images/member_photo/yoojin.png";
 
 import "./People.scss";
 
@@ -272,7 +273,7 @@ function People() {
           </div>
         </li>
         <li>
-          <img src={placeholder_image} alt="yoojin_image"/>
+          <img src={yoojin_image} alt="yoojin_image"/>
           <div className="name kr">홍유진</div>
           <div className="name">Yoojin Hong</div>
           <div className="role">Intern 2023
