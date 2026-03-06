@@ -24,6 +24,7 @@ import seo_image from "../../images/member_photo/seo.png";
 import maida_image from "../../images/member_photo/maida.png";
 import kadijah_image from "../../images/member_photo/kadijah.png";
 import yoojin_image from "../../images/member_photo/yoojin.png";
+import minseo_image from "../../images/member_photo/lim.png";
 
 import "./People.scss";
 
@@ -179,6 +180,13 @@ function People() {
           <a><img src={subincho_image} alt="subincho_image"/></a>
           <div className="name kr">조수빈</div>
           <div className="name">Subin Cho</div>
+          <div className="role">Intern
+          </div>
+        </li>
+        <li>
+          <a><img src={minseo_image} alt="minseo_image"/></a>
+          <div className="name kr">임민서</div>
+          <div className="name">Minseo, Lim</div>
           <div className="role">Intern
           </div>
         </li>
