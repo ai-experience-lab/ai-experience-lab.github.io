@@ -27,15 +27,7 @@ function Publications() {
                 Full Paper @ CHI 2026
               </div>
               <div className="authors">
-                Yugyeong Jung,
-                Thu Hoang Anh Vo,
-                <em>Hyun Seung Moon</em>,
-                <em>Jae Young Choi</em>,
-                Hyangkyeong Oh,
-                Ujin Lee,
-                Eunjoo Kim,
-                <em>Tak Yeon Lee</em>,
-                Uichin Lee
+                Yugyeong Jung, Thu Hoang Anh Vo, <em>Hyun Seung Moon</em>, <em>Jae Young Choi</em>, Hyangkyeong Oh, Ujin Lee, Eunjoo Kim, <em>Tak Yeon Lee</em>, and Uichin Lee
               </div>
             </div>
           </li>

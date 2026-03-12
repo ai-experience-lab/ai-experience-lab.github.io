@@ -22,7 +22,6 @@
         li.project {
             list-style-type: none;
             width: 100%;
-            border-radius: 8px;
             object-fit: cover;
             margin-bottom:12px;
             .image {
@@ -41,7 +40,7 @@
                     aspect-ratio: 1/1;
                     object-fit: cover;
                     object-position:top left;
-                    transition: transform 0.1s ease-in-out;
+                    transition: transform 0.3s ease;
                 }
                 &:hover {
                     img {
