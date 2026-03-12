@@ -10,10 +10,25 @@ const importAllImages = (requireContext) => {
 
 function Gallery() {
     const images = useMemo(() => {
-        const context = require.context('../../images/lab_photo', false, /\.(jpg|jpeg|png)$/i);
-        const allImages = importAllImages(context);
+        const resizeContext = require.context('../../images/lab_photo_resize', false, /\.(jpg|jpeg|png)$/i);
+        const originalContext = require.context('../../images/lab_photo', false, /\.(jpg|jpeg|png)$/i);
         
-        return allImages.sort((a, b) => {
+        const resizedImages = importAllImages(resizeContext);
+        const originalImages = importAllImages(originalContext);
+        
+        // 파일명 기준으로 원본 이미지 매칭 (확장자 제외)
+        const imagesWithOriginal = resizedImages.map(resized => {
+            const baseName = resized.filename.replace(/\.(jpg|jpeg|png)$/i, '');
+            const original = originalImages.find(orig => 
+                orig.filename.replace(/\.(jpg|jpeg|png)$/i, '') === baseName
+            );
+            return {
+                ...resized,
+                originalSrc: original ? original.src : resized.src
+            };
+        });
+        
+        return imagesWithOriginal.sort((a, b) => {
             const dateA = a.filename.match(/\d+/)?.[0] || '';
             const dateB = b.filename.match(/\d+/)?.[0] || '';
             return dateB.localeCompare(dateA);
@@ -30,11 +45,16 @@ function Gallery() {
                         key={image.filename} 
                         className={`gallery-item item-${(index % 2) + 1}`}
                     >
-                        <img 
-                            src={image.src} 
-                            alt={`AEL Lab Activity ${image.filename}`}
-                            loading="lazy"
-                        />
+                        <a 
+                            href={image.originalSrc} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <img 
+                                src={image.src} 
+                                alt={`AEL Lab Activity ${image.filename}`}
+                            />
+                        </a>
                     </div>
                 ))}
             </div>
