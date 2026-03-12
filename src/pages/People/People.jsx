@@ -25,6 +25,9 @@ import maida_image from "../../images/member_photo/maida.png";
 import kadijah_image from "../../images/member_photo/kadijah.png";
 import yoojin_image from "../../images/member_photo/yoojin.png";
 import minseo_image from "../../images/member_photo/lim.png";
+import ihchae_image from "../../images/member_photo/ihchae.png";
+import suyoun_image from "../../images/member_photo/suyoun.png";
+import taewoo_image from "../../images/member_photo/taewoo.png";
 
 import "./People.scss";
 
@@ -267,7 +270,7 @@ function People() {
           </div>
         </li>
         <li>
-          <img src={placeholder_image} alt="taewoo_image"/>
+          <img src={taewoo_image} alt="taewoo_image"/>
           <div className="name kr">김태우</div>
           <div className="name">Taewoo Kim</div>
           <div className="role">Intern 2022
@@ -302,14 +305,14 @@ function People() {
           </div>
         </li>
         <li>
-          <img src={placeholder_image} alt="suyounlee_image"/>
+          <img src={suyoun_image} alt="suyounlee_image"/>
           <div className="name kr">이수연</div>
           <div className="name">Suyoun Lee</div>
           <div className="role">Intern 2024
           </div>
         </li>
         <li>
-          <img src={placeholder_image} alt="ichae_image"/>
+          <img src={ihchae_image} alt="ihchae_image"/>
           <div className="name kr">류이채</div>
           <div className="name">Ihchae Ryu</div>
           <div className="role">Intern 2024
