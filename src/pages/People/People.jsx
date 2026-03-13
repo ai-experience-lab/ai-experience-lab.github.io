@@ -1,5 +1,6 @@
 import tak_image from "../../images/member_photo/tak.jpg";
-import seongyeomkim_image from "../../images/member_photo/seongyeomkim.jpg";
+//import seongyeomkim_image from "../../images/member_photo/seongyeomkim.jpg";
+import seongyeomkim_image from "../../images/member_photo/seon.png";
 import jeehunchoi_image from "../../images/member_photo/jeehunchoi.jpg";
 //import donggunlee_image from "../../images/member_photo/donggunlee.jpeg";
 import joohyoungpark_image from "../../images/member_photo/joohyoungpark.jpeg";
@@ -28,6 +29,7 @@ import minseo_image from "../../images/member_photo/lim.png";
 import ihchae_image from "../../images/member_photo/ihchae.png";
 import suyoun_image from "../../images/member_photo/suyoun.png";
 import taewoo_image from "../../images/member_photo/taewoo.png";
+import hyeyeon_image from "../../images/member_photo/hyeyeon.png";
 
 import "./People.scss";
 
@@ -137,7 +139,7 @@ function People() {
           </div>
         </li>
         <li>
-          <a href="https://seohyeyeon.myportfolio.com/work" target='_blank' rel="noreferrer"><img src={seo_image} alt="seo_image"/></a>
+          <a href="https://seohyeyeon.myportfolio.com/work" target='_blank' rel="noreferrer"><img src={hyeyeon_image} alt="hyeyeon_image"/></a>
           <div className="name kr">서혜연</div>
           <div className="name">Hyeyeon, Seo</div>
           <div className="role">Master Student</div>
