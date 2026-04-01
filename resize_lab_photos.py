@@ -6,6 +6,7 @@ source_folder = "src/images/lab_photo"
 target_folder = "src/images/lab_photo_resize"
 
 os.makedirs(target_folder, exist_ok=True)
+for f in pathlib.Path(target_folder).glob('*'): f.unlink()
 
 TARGET_SIZE = (300, 300)
 MAX_FILE_SIZE = 500 * 1024  # 500KB in bytes
@@ -44,7 +45,7 @@ def resize_and_compress_image(input_path, output_path):
         
         img = img.crop((left, top, right, bottom))
         
-        quality = 95
+        quality = 100
         while quality > 10:
             img.save(output_path, 'JPEG', quality=quality, optimize=True)
             file_size = os.path.getsize(output_path)
@@ -66,13 +67,23 @@ image_extensions = {'.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'}
 processed_count = 0
 failed_count = 0
 
+def get_unique_output_path(folder, stem):
+    output_path = os.path.join(folder, stem + '.jpg')
+    index = 1
+
+    while os.path.exists(output_path):
+        output_path = os.path.join(folder, f"{stem}-{index}.jpg")
+        index += 1
+
+    return output_path
+
 for filename in os.listdir(source_folder):
     file_path = os.path.join(source_folder, filename)
     
     if os.path.isfile(file_path) and pathlib.Path(filename).suffix in image_extensions:
 
-        output_filename = pathlib.Path(filename).stem + '.jpg'
-        output_path = os.path.join(target_folder, output_filename)
+        output_stem = pathlib.Path(filename).stem
+        output_path = get_unique_output_path(target_folder, output_stem)
         
         if resize_and_compress_image(file_path, output_path):
             processed_count += 1
