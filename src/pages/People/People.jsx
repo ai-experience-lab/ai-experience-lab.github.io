@@ -8,7 +8,7 @@ import yusangyun_image from "../../images/member_photo/yusangyun.jpg";
 import byoungjaekim_image from "../../images/member_photo/byoungjaekim.jpg";
 import minsunkim_image from "../../images/member_photo/minsunkim.jpg";
 import jinjeong_image from "../../images/member_photo/jinjeong.jpg";
-import hyunseungmoon_image from "../../images/member_photo/hyunseungmoon.jpg";
+import hyunseungmoon_image from "../../images/member_photo/hyunseung.png";
 import jaeyoungchoi_image from "../../images/member_photo/jaeyoungchoi.jpg";
 import hyunlee_image from "../../images/member_photo/hyun.png";
 //import jaeryungchung_image from "../../images/member_photo/jaeryungchung.jpg";
