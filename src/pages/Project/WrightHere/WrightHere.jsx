@@ -12,10 +12,15 @@ function WrightHere() {
             <div className="Title">WrightHere</div>
             <div className="Subtitle">Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</div>
             <div className="Researchers">
-                Jaeryung Chung, Seon Gyeom Kim
+                Jaeryung Chung, Sohwi Son, Seon Gyeom Kim, Hyunchul Kim
             </div>
             <div className="Remarks">
-                Late-break-Work @ CHI 2025
+                <a href="https://dl.acm.org/doi/10.1145/3706599.3719932" target="_blank">Late-break-Work @ CHI 2025</a>
+                <br/>
+                <a href="https://ifdesign.com/en/winner-ranking/project/wrighthere/764735" target="_blank">iF Design Award 2026</a>
+            </div>
+            <div className="links">
+                <a href="https://creativitysupport.github.io/" target="_blank" rel="noreferrer" className="link">Project Website</a>
             </div>
             {/* 
                 <div className="links">
