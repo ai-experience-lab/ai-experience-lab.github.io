@@ -21,6 +21,19 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline and Expert-Guided Evaluation Study
+              </div>
+              <div className="description">
+                Full Paper @ FoundGen-Bio workshop, CVPR 2026
+              </div>
+              <div className="authors">
+                Maida Aizaz, Khadija Rajabova, Seon Gyeom Kim, Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, Tak Yeon Lee
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 Toward Flexible Psychiatric History-Taking and Visualization: Exploring Clinician Perspectives with Large Language Models
               </div>
               <div className="description">
