@@ -55,7 +55,7 @@ function App() {
             <Route path="/project/:pid" element={<CommonPage key="project" ContentPage={Project} language={language} setLanguage={setLanguage}/>} />
             <Route path="/publications" element={<CommonPage key="publications" ContentPage={Publications} language={language} setLanguage={setLanguage}/>} /> 
             <Route path="/gallery" element={<CommonPage key="gallery" ContentPage={Gallery} language={language} setLanguage={setLanguage}/>} /> 
-            <Route path="/news" element={<CommonPage key="news" ContentPage={News} language={language} setLanguage={setLanguage}/>} />
+            {/* <Route path="/news" element={<CommonPage key="news" ContentPage={News} language={language} setLanguage={setLanguage}/>} /> */}
           </Routes>
         </div>
       </div>

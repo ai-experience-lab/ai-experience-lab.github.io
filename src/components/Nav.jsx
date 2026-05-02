@@ -44,7 +44,7 @@ function Nav({language, setLanguage}) {
                     <li className="no-select"><Link to="/courses" onClick={() => setIsMobileMenuOpen(false)}>Courses</Link></li>
                     <li className="no-select"><Link to="/gallery" onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link></li>
                     <li className="no-select"><Link to="/join" onClick={() => setIsMobileMenuOpen(false)}>Join</Link></li>
-                    <li className="no-select"><Link to="/news" onClick={() => setIsMobileMenuOpen(false)}>News</Link></li>
+                    {/* <li className="no-select"><Link to="/news" onClick={() => setIsMobileMenuOpen(false)}>News</Link></li> */}
                 </ul>
             </div>
         </>
