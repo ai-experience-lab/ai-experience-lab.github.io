@@ -14,7 +14,7 @@ import hyunlee_image from "../../images/member_photo/hyun.png";
 //import jaeryungchung_image from "../../images/member_photo/jaeryungchung.jpg";
 import jaeryungchung_image from "../../images/member_photo/jaeryung.png";
 import donggunlee_image from "../../images/member_photo/donggunlee.png";
-import yoonjaeoh_image from "../../images/member_photo/yoonjaeoh.jpg";
+import yoonjaeoh_image from "../../images/member_photo/yoonjae.png";
 import jungwonpark_image from "../../images/member_photo/jwpark.png";
 import chaeyounghuh_image from "../../images/member_photo/chaeyounghuh.png";
 import seunghobaek_image from "../../images/member_photo/seunghobaek.png";
