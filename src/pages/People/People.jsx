@@ -162,7 +162,7 @@ function People() {
           <div className="role">Intern
           </div>
           <div className="website">
-            <a href="https://siwon.site" target='_blank' rel="noreferrer">website</a>
+            <a href="https://siwon.it.kr" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
         <li>
