@@ -1,47 +1,88 @@
 .courses {
-    padding:20px;
+    padding: 20px;
+
     h3 {
-        padding-left:2rem !important;
+        padding-left: 2rem !important;
         margin-top: 4rem !important;
         padding-top: 4rem !important;
-        border-top:1px solid #ddd;
+        border-top: 1px solid #ddd;
+
         .year {
-            font-size:1.2rem;
-            color:#9a9a9a;
+            font-size: 1.2rem;
+            color: #9a9a9a;
         }
     }
+
     ol {
-        padding-left:5rem;
+        padding-left: 5rem;
+
         li {
             margin-bottom: 1rem;
             padding-left: 1.5rem;
             position: relative;
         }
     }
+
     p {
-        padding-left:2rem;
+        padding-left: 2rem;
     }
 
     div.class_year {
-        margin-left:40px;
-        margin-right:40px;
+        margin-left: 40px;
+        margin-right: 40px;
+
         a.term_projects {
             &::before {
                 content: ">>";
             }
+
             color: #aaa;
             font-weight: 500;
+
             &:hover {
                 color: #1a6f9c;
             }
         }
+
         .image {
             img {
-                width:100%;
+                width: 100%;
             }
         }
+
+        .projects {
+            margin: 0 2rem;
+
+            .class_project {
+                display: flex;
+                align-items: flex-start;
+                gap: 1.5rem;
+                margin-bottom: 2rem;
+
+                img {
+                    width: 40%;
+                    flex-shrink: 0;
+                    object-fit: cover;
+                    border-radius: 4px;
+                    border: 1px solid #eee;
+                }
+
+                .project_description {
+                    flex: 1;
+                    font-size: 0.95rem;
+                    line-height: 1.6;
+                    color: #444;
+
+                    a {
+                        color: #aaa;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
     }
-    
-  
-    
+
+
+
 }
