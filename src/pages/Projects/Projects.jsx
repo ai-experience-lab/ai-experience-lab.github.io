@@ -14,6 +14,7 @@ import gaze from "../../images/project_photo/gaze.png";
 import histochat from "../../images/project_photo/histochat-square2.png";
 import wrighthere from "../../images/project_photo/wrighthere.png";
 import LIGS from "../../images/project_photo/LIGS.png";
+import stat_cover from "../../images/project_photo/stat_cover.jpg";
 
 
 import "./Projects.scss";
@@ -29,6 +30,18 @@ function Projects() {
       {/*  CURRENT PROJECTS ------------------------------------------------------------------------ */}
       <h3>Current Projects</h3>
       <ul className="projectList">
+        <li className="project">
+          <div className="image">
+            <a href="#/project/STAT">
+              <img src={stat_cover} style={{ "objectPosition": "30% center" }} alt="STAT" />
+            </a>
+          </div>
+          <div className="title">
+            <a href="#/project/STAT">STAT: AI-Powered Emergency Response Solution</a>
+            <span className="time">2026</span>
+          </div>
+        </li>
+
         <li className="project">
           <div className="image">
             <a href="#/project/Chart2Experience">

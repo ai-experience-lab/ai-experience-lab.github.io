@@ -15,6 +15,7 @@ import Skully from "./Skully/Skully";
 import IDS from "./IDS/IDS";
 import Maehwasoo from "./Maehwasoo/Maehwasoo";
 import Korail from "./Korail/Korail";
+import STAT from "./STAT/STAT";
 
 import "./Project.scss";
 
@@ -36,6 +37,7 @@ function Project() {
         "IDS": <IDS/>, 
         "Korail": <Korail/>,
         "Maehwasoo": <Maehwasoo/>,
+        "STAT": <STAT/>,
     }
     const props = pageProps[pid] || <div className="Project">Project not found</div>;
     return (
