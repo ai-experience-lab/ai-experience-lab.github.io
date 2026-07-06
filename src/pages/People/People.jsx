@@ -31,6 +31,7 @@ import ihchae_image from "../../images/member_photo/ihchae.png";
 import suyoun_image from "../../images/member_photo/suyoun.png";
 import taewoo_image from "../../images/member_photo/taewoo.png";
 import hyeyeon_image from "../../images/member_photo/hyeyeon.png";
+import junyeop_image from "../../images/member_photo/junyeop.jpg";
 
 import "./People.scss";
 
@@ -166,23 +167,6 @@ function People() {
           </div>
         </li>
         <li>
-          <a><img src={yoon_image} alt="yoonkim_image" /></a>
-          <div className="name kr">김윤</div>
-          <div className="name">Yoon Kim</div>
-          <div className="role">Intern
-          </div>
-        </li>
-        <li>
-          <a><img src={chaeyounghuh_image} alt="chaeyounghuh_image" /></a>
-          <div className="name kr">허채영</div>
-          <div className="name">Chaeyoung Huh</div>
-          <div className="role">Intern
-          </div>
-          <div className="website">
-            <a href="https://lirisnoir.notion.site/" target='_blank' rel="noreferrer">website</a>
-          </div>
-        </li>
-        <li>
           <a><img src={subincho_image} alt="subincho_image" /></a>
           <div className="name kr">조수빈</div>
           <div className="name">Subin Cho</div>
@@ -193,6 +177,13 @@ function People() {
           <a><img src={minseo_image} alt="minseo_image" /></a>
           <div className="name kr">임민서</div>
           <div className="name">Minseo, Lim</div>
+          <div className="role">Intern
+          </div>
+        </li>
+        <li>
+          <a><img src={junyeop_image} alt="junyeop_image" /></a>
+          <div className="name kr">이준엽</div>
+          <div className="name">Junyeop Lee</div>
           <div className="role">Intern
           </div>
         </li>
@@ -329,6 +320,23 @@ function People() {
           </div>
           <div className="website">
             <a href="https://www.jaywoong.me" target='_blank' rel="noreferrer">website</a>
+          </div>
+        </li>
+        <li>
+          <img src={yoon_image} alt="yoonkim_image" />
+          <div className="name kr">김윤</div>
+          <div className="name">Yoon Kim</div>
+          <div className="role">Intern 2026
+          </div>
+        </li>
+        <li>
+          <img src={chaeyounghuh_image} alt="chaeyounghuh_image" />
+          <div className="name kr">허채영</div>
+          <div className="name">Chaeyoung Huh</div>
+          <div className="role">Intern 2026
+          </div>
+          <div className="website">
+            <a href="https://lirisnoir.notion.site/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
 
