@@ -181,10 +181,13 @@ function People() {
           </div>
         </li>
         <li>
-          <a><img src={junyeop_image} alt="junyeop_image" /></a>
+          <a href="https://leejunyeop.vercel.app" target='_blank' rel="noreferrer"><img src={junyeop_image} alt="junyeop_image" /></a>
           <div className="name kr">이준엽</div>
           <div className="name">Junyeop Lee</div>
           <div className="role">Intern
+          </div>
+          <div className="website">
+            <a href="https://leejunyeop.vercel.app" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
       </ul>
