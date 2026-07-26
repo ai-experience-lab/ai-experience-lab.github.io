@@ -15,8 +15,8 @@ function Skulpt() {
                 Maida Aizaz, Khadija Rajabova
             </div>
             <div className="Remarks">
-                Poster @ WiCV workshop, CVPR 2025 <br/>
-                Gwangju Biennale 2025 <br/>
+                Poster @ WiCV workshop, CVPR 2025 <br />
+                Gwangju Design Biennale 2025 <br />
                 Full paper @ FoundGen-Bio workshop, CVPR 2026
             </div>
             {/*

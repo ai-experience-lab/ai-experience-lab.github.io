@@ -38,7 +38,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/STAT">STAT: AI-Powered Emergency Response Solution</a>
-            <span className="time">2026</span>
+            <span className="time"><b>UX Design</b> &middot; Reddot Award</span>
           </div>
         </li>
 
@@ -50,7 +50,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/Chart2Experience">Chart-to-Experience: Benchmarking Multimodal LLMs for Predicting Experiential Impact of Charts</a>
-            <span className="time">2025</span>
+            <span className="time"><b>Research</b> &middot; IEEE PacificVis</span>
           </div>
         </li>
 
@@ -62,7 +62,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/GroundedChart">Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</a>
-            <span className="time">2025</span>
+            <span className="time"><b>Research</b> &middot; IEEE VIS</span>
           </div>
         </li>
 
@@ -72,7 +72,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/InTalk">InTalk: Voice-Enabled Chatbot for Medical Pre-Consultation</a>
-            <span className="time">2025</span>
+            <span className="time"><b>Research</b></span>
           </div>
         </li>
 
@@ -83,7 +83,7 @@ function Projects() {
           <div className="title">
             <a href="#/project/Lifegraphy">Lifegraphy: Chatting with Virtual Customer Personas
             </a>
-            <span className="time">2024-2025</span>
+            <span className="time"><b>Industry Project</b></span>
           </div>
         </li>
 
@@ -95,7 +95,7 @@ function Projects() {
           <div className="title">
             <a href="#/project/Skulpt">SKULPT: Facial Reconstruction from Human Skull
             </a>
-            <span className="time">2024-2025</span>
+            <span className="time"><b>Research</b> &middot; CVPR workshop</span>
           </div>
         </li>
 
@@ -105,7 +105,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/Gaze2Prompt">Gaze2Prompt: Turning Eye-Tracking Data into Visual Prompts for Multimodal LLMs</a>
-            <span className="time">2025</span>
+            <span className="time"><b>Research</b> &middot; Ubicomp Poster</span>
           </div>
         </li>
 
@@ -117,7 +117,7 @@ function Projects() {
           <div className="title">
             <a href="#/project/HistoChat">HistoChat: Leveraging AI-Driven Historical Personas for Personalized and
               Engaging Middle School History Education</a>
-            <span className="time">2025</span>
+            <span className="time"><b>Research</b> &middot; CSCW full paper</span>
           </div>
         </li>
 
@@ -128,7 +128,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
-            <span className="time">2024-2025</span>
+            <span className="time"><b>Research</b> &middot; CHI LbW</span>
           </div>
         </li>
 
@@ -139,8 +139,8 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/LIGS">In the Cabin: LLM-infused Game System for Emergent
-            Narrative</a>
-            <span className="time">2025</span>
+              Narrative</a>
+            <span className="time"><b>Research</b> &middot; CHI LbW</span>
           </div>
         </li>
       </ul>
@@ -157,7 +157,7 @@ function Projects() {
           <div className="title">
             <a href="#/project/IITP">Data Visualization for Alleviating Stress of Emotional Labor Over the Phone
             </a>
-            <span className="time">2022-2024</span>
+            <span className="time"><b>Research</b> &middot; IITP</span>
           </div>
         </li>
 
@@ -169,7 +169,7 @@ function Projects() {
             <a href="#/project/Fush">
               Future Home for Family
             </a>
-            <span className="time">2022-2024</span>
+            <span className="time"><b>UX Design</b></span>
           </div>
           {/* <div className="description">
             As part of a large research team at KAIST, AEL has been working on how future home should support family members.
@@ -190,7 +190,7 @@ function Projects() {
             <a href="#/project/skully">
               Interactive Gender Estimation of Human Skull
             </a>
-            <span className="time">2022-2025</span>
+            <span className="time"><b>Research</b></span>
           </div>
           {/* <div className="description">
             Gender estimation is the first step when an unidentified skull is found. Gender estimation is currently done by forensic experts. However, we developed a novel web appication that allows non-expert users to estimate gender of any skull with only three images. We trained a computer vision model from rendered images of 800 3D skull models, which exceeds state-of-the-art
@@ -212,7 +212,7 @@ function Projects() {
             <a href="#/project/IDS">
               AI-supported Tools for Authoring Immersive Data Storytelling
             </a>
-            <span className="time">2021-2024</span>
+            <span className="time"><b>Research</b></span>
           </div>
           {/* <div className="description">
             This project aims to build an AI-assisted  authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements.
@@ -237,7 +237,7 @@ function Projects() {
             <a href="#/project/Korail">
               Interactive Dashboard for High-Speed Train Safety Management
             </a>
-            <span className="time">2021</span>
+            <span className="time"><b>UX Design</b></span>
           </div>
           {/* <div className="contributors">
           <span className="sponsor"> Sponsored by <b>KORAIL, South Korea</b></span>
@@ -258,7 +258,7 @@ function Projects() {
             <a href="#/project/Maehwasoo">
               MaeHwaSoo - Interactive Curriculum Explorer for College Students
             </a>
-            <span className="time">2021</span>
+            <span className="time"><b>UX Design</b></span>
           </div>
           {/* <div className="contributors">
           <b>Minwoo Kim</b>. Guided by <b>Seok-Hyoung Bae</b>, <b>Tak Yeon lee</b>.
