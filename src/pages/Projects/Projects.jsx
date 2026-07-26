@@ -128,7 +128,7 @@ function Projects() {
           </div>
           <div className="title">
             <a href="#/project/WrightHere">WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</a>
-            <span className="time"><b>Research</b> &middot; CHI LbW</span>
+            <span className="time"><b>Research</b> &middot; iF Award, CHI LbW</span>
           </div>
         </li>
 

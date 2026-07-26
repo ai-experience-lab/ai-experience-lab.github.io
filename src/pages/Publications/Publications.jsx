@@ -21,13 +21,28 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                <a href="https://doi.org/10.1145/3816046.3816281" target="_blank" rel="noreferrer">
+                  CineTalk: Designing an LLM Chatbot for Exploring Diverse Perspectives in Digital Content Appreciation
+                </a>
+              </div>
+              <div className="description">
+                Work-in-Progress Short Paper @ ACM CUI 2026
+              </div>
+              <div className="authors">
+                Gahyeon Bae, Gahyeon Kim, <em>Hyun Seung Moon</em>, <em>Tak Yeon Lee</em>, and Hwajung Hong
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline and Expert-Guided Evaluation Study
               </div>
               <div className="description">
                 Full Paper @ FoundGen-Bio workshop, CVPR 2026
               </div>
               <div className="authors">
-                Maida Aizaz, Khadija Rajabova, Seon Gyeom Kim, Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, Tak Yeon Lee
+                <em>Maida Aizaz</em>, <em>Khadija Rajabova</em>, <em>Seon Gyeom Kim</em>, Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -60,7 +75,9 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
+                <a href="https://doi.org/10.1145/3772363.3798927" target="_blank" rel="noreferrer">
+                  Understanding How Creators Collaborate with Conversational Agents in Short-Form Video Production
+                </a>
               </div>
               <div className="description">
                 Poster @ CHI 2026
@@ -99,7 +116,7 @@ function Publications() {
                 WiCV Workshop @ CVPR 2025
               </div>
               <div className="authors">
-                <em>Maida Aizaz, Khadija Rajabova, Seon Gyeom Kim,</em> Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, and <em>Tak Yeon Lee</em>
+                <em>Maida Aizaz</em>, <em>Khadija Rajabova</em>, <em>Seon Gyeom Kim</em>, Won Joon Lee, Joon Yeol Ryu, Hyobong Jang, Soojung Park, Kiwan Jeon, Hyoung Suk Park, Sung Ho Kang, and <em>Tak Yeon Lee</em>
               </div>
             </div>
           </li>
@@ -441,9 +458,9 @@ function Publications() {
               </div>
               <div className="description">
                 IEEE VIS 2021
-                <span className="acknowledgement">
+                {/* <span className="acknowledgement">
                   <FaAward className="award" />
-                </span>
+                </span> */}
               </div>
               <div className="authors">
                 Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, <em>Tak Yeon Lee</em>, Sana Malik, Eunyee Koh, Leilani Battle
