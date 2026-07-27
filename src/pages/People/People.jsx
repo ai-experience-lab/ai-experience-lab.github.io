@@ -149,7 +149,7 @@ function People() {
             hseo01@kaist.ac.kr
           </div>
           <div className="website">
-            <a href="https://seohyeyeon.myportfolio.com/work" target='_blank' rel="noreferrer">website</a>
+            <a href="https://www.hyeyeonseo.com/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
       </ul>
