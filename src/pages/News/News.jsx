@@ -42,7 +42,7 @@ function News() {
             <tr>
               <td className="newsDate">Jun. 2026</td>
               <td>
-                <div>Ph.D. student <b>Seon Gyeom Kim</b> joined <b>Megagon Labs</b> as a Summer Research Intern.</div>
+                <div>Ph.D. student <b>Seon Gyeom Kim</b> joined <a href="https://megagon.ai/" target="_blank" rel="noreferrer"><b>Megagon Labs</b></a> (Mountain View, CA) as a Summer Research Intern.</div>
                 <div className="newsImage">
                   <img src={megagonImg} alt="Megagon Labs Internship" />
                 </div>
