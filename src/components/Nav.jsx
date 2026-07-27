@@ -37,14 +37,14 @@ function Nav({language, setLanguage}) {
             {/* 기존 네비게이션 */}
             <div className={`nav ${isVisible ? 'nav-visible' : ''} ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                 <ul>
-                    <li className="no-select"><Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>About us</Link></li>
-                    <li className="no-select"><Link to="/people" onClick={() => setIsMobileMenuOpen(false)}>People</Link></li>
+                    <li className="no-select"><Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link></li>
+                    <li className="no-select"><Link to="/news" onClick={() => setIsMobileMenuOpen(false)}>News</Link></li>
                     <li className="no-select"><Link to="/projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</Link></li>
                     <li className="no-select"><Link to="/publications" onClick={() => setIsMobileMenuOpen(false)}>Publications</Link></li>
                     <li className="no-select"><Link to="/courses" onClick={() => setIsMobileMenuOpen(false)}>Courses</Link></li>
+                    <li className="no-select"><Link to="/people" onClick={() => setIsMobileMenuOpen(false)}>People</Link></li>
                     <li className="no-select"><Link to="/gallery" onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link></li>
                     <li className="no-select"><Link to="/join" onClick={() => setIsMobileMenuOpen(false)}>Join</Link></li>
-                    {/* <li className="no-select"><Link to="/news" onClick={() => setIsMobileMenuOpen(false)}>News</Link></li> */}
                 </ul>
             </div>
         </>
