@@ -8,6 +8,7 @@ import maldoImg2 from "../../images/lab_photo_resize/20260510_2.jpg";
 import foundgenPdf from "../../images/news_images/foundgen-2026-poster.pdf";
 import skulptImg from "../../images/project_photo/skulpt.jpeg";
 import daejeonImg from "../../images/news_images/daejeon_education_committee.jpg";
+import jaeyoungGradImg from "../../images/news_images/jaeyoung_graduation.png";
 
 function News() {
   return (
@@ -20,6 +21,15 @@ function News() {
               <td className="newsDate">Sep. 2026</td>
               <td>
                 We welcome <b>Yoonjung Lee</b> (Korea University, Industrial Design) and <b>Yoonji Son</b> (Ewha Womans University, AX) to the AI Experience Lab as new M.S. students.
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">Aug. 2026</td>
+              <td>
+                <div>Jaeyoung Choi completed his M.S. degree and will be joining <b>Texas A&M University (TAMU)</b> as a Ph.D. student in Computer Science. We wish him all the best in his future journey!</div>
+                <div className="newsImage large">
+                  <img src={jaeyoungGradImg} alt="Jaeyoung Choi Graduation" />
+                </div>
               </td>
             </tr>
             <tr>
