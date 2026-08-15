@@ -21,6 +21,32 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                DioramaCraft: A Human-AI Workflow for Transforming Personal Photographs into Layered Paper Theater Dioramas
+              </div>
+              <div className="description">
+                Poster @ UIST 2026
+              </div>
+              <div className="authors">
+                Guhn Lee, Heejin Kim, Jiyoon Lee, <em>Donggun Lee</em>, and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                Hangulo: Demonstrating Workflow-Embedded AI Support for Korean Lettering Implementation
+              </div>
+              <div className="description">
+                Poster @ UIST 2026
+              </div>
+              <div className="authors">
+                Hyewon Lee and <em>Tak Yeon Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 <a href="https://doi.org/10.1145/3816046.3816281" target="_blank" rel="noreferrer">
                   CineTalk: Designing an LLM Chatbot for Exploring Diverse Perspectives in Digital Content Appreciation
                 </a>
