@@ -9,6 +9,9 @@ import foundgenPdf from "../../images/news_images/foundgen-2026-poster.pdf";
 import skulptImg from "../../images/project_photo/skulpt.jpeg";
 import daejeonImg from "../../images/news_images/daejeon_education_committee.jpg";
 import jaeyoungGradImg from "../../images/news_images/jaeyoung_graduation.png";
+import pokebowlImg1 from "../../images/news_images/pokebowl_1.jpg";
+import pokebowlImg2 from "../../images/news_images/pokebowl_2.jpg";
+import pokebowlImg3 from "../../images/news_images/pokebowl_3.jpg";
 
 function News() {
   return (
@@ -29,6 +32,17 @@ function News() {
                 <div>Jaeyoung Choi completed his M.S. degree and will be joining <b>Texas A&M University (TAMU)</b> as a Ph.D. student in Computer Science. We wish him all the best in his future journey!</div>
                 <div className="newsImage large">
                   <img src={jaeyoungGradImg} alt="Jaeyoung Choi Graduation" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">Aug. 2026</td>
+              <td>
+                <div>The AI Experience Lab members gathered for a hands-on lab meeting social, preparing and enjoying homemade <b>Poké Bowls</b> together.</div>
+                <div className="newsImages">
+                  <img src={pokebowlImg1} alt="Poké Bowl Lab Meeting 1" />
+                  <img src={pokebowlImg2} alt="Poké Bowl Lab Meeting 2" />
+                  <img src={pokebowlImg3} alt="Poké Bowl Lab Meeting 3" />
                 </div>
               </td>
             </tr>
