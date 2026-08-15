@@ -84,7 +84,7 @@ function News() {
             <tr>
               <td className="newsDate">May 2026</td>
               <td>
-                <div>Our full paper <b>SKULPT Yourself</b> (<i>"SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline and Expert-Guided Evaluation Study"</i>) was accepted and presented at the <b>CVPR 2026 Workshop on Foundation and Generative Models in Biometrics (FoundGen-Bio)</b>.</div>
+                <div>Our full paper <b>SKULPT Yourself</b> (<i>"SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline and Expert-Guided Evaluation Study"</i>) was accepted and presented at the <b>CVPR 2026 Workshop on Foundation and Generative Models in Biometrics (FoundGen-Bio)</b> — developed by Maida Aizaz and Khadija Rajabova as part of their <b>Individual Research</b>.</div>
                 <div className="newsImage">
                   <Link to="/project/Skulpt">
                     <img src={skulptImg} alt="SKULPT Yourself Project" />
