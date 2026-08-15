@@ -23,6 +23,12 @@ function News() {
               </td>
             </tr>
             <tr>
+              <td className="newsDate">Aug. 2026</td>
+              <td>
+                Two posters (<i>DioramaCraft</i> and <i>Hangulo</i>) were accepted to <b>ACM UIST 2026</b>.
+              </td>
+            </tr>
+            <tr>
               <td className="newsDate">Jul. 2026</td>
               <td>
                 <div>Our project <b>STAT</b> was recognized as a <b>Red Dot Design Award Finalist</b>.</div>
