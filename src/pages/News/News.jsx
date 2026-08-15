@@ -25,7 +25,13 @@ function News() {
             <tr>
               <td className="newsDate">Aug. 2026</td>
               <td>
-                Two posters (<i>DioramaCraft</i> and <i>Hangulo</i>) were accepted to <b>ACM UIST 2026</b>.
+                Our paper <b>DioramaCraft</b> (<i>"A Human-AI Workflow for Transforming Personal Photographs into Layered Paper Theater Dioramas"</i> by Guhn Lee, Heejin Kim, Jiyoon Lee, <b>Donggun Lee</b>, and <b>Tak Yeon Lee</b>) was accepted as a Poster at <b>ACM UIST 2026</b>.
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">Aug. 2026</td>
+              <td>
+                Our paper <b>Hangulo</b> (<i>"Demonstrating Workflow-Embedded AI Support for Korean Lettering Implementation"</i> by Hyewon Lee and <b>Tak Yeon Lee</b>) was accepted as a Poster at <b>ACM UIST 2026</b>.
               </td>
             </tr>
             <tr>
