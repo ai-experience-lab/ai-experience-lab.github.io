@@ -74,21 +74,21 @@ function News() {
             <tr>
               <td className="newsDate">Jun. 2026</td>
               <td>
-                <div>Our paper <i>SKULPT Yourself</i> was accepted to a <b>CVPR 2026 Workshop</b>.</div>
-                <div className="newsImage">
-                  <Link to="/project/Skulpt">
-                    <img src={skulptImg} alt="SKULPT Yourself Project" />
-                  </Link>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="newsDate">Jun. 2026</td>
-              <td>
                 <div>The AI Experience Lab held its annual retreat at <b>Maldo Island</b>, enjoying team-building activities, fishing, and discussions on future research directions.</div>
                 <div className="newsImages">
                   <img src={maldoImg1} alt="Maldo Island Retreat 1" />
                   <img src={maldoImg2} alt="Maldo Island Retreat 2" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">May 2026</td>
+              <td>
+                <div>Our full paper <b>SKULPT Yourself</b> (<i>"SKULPT Yourself: A Data-Driven Facial Reconstruction Pipeline and Expert-Guided Evaluation Study"</i>) was accepted and presented at the <b>CVPR 2026 Workshop on Foundation and Generative Models in Biometrics (FoundGen-Bio)</b>.</div>
+                <div className="newsImage">
+                  <Link to="/project/Skulpt">
+                    <img src={skulptImg} alt="SKULPT Yourself Project" />
+                  </Link>
                 </div>
               </td>
             </tr>
