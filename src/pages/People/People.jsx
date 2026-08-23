@@ -158,7 +158,7 @@ function People() {
       <ul className="people_list">
         <li>
           <a><img src={jungwonpark_image} alt="jungwonpark_image" /></a>
-          <div className="name kr">박정원</div>
+          <div className="name kr">박정원</div>g
           <div className="name">Jung Won Park</div>
           <div className="role">Intern
           </div>
@@ -339,7 +339,7 @@ function People() {
           <div className="role">Intern 2026
           </div>
           <div className="website">
-            <a href="https://lirisnoir.notion.site/" target='_blank' rel="noreferrer">website</a>
+            <a href="https://cyhuh.com" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
 
