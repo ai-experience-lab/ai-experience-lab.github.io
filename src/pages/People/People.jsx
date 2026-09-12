@@ -32,6 +32,8 @@ import suyoun_image from "../../images/member_photo/suyoun.png";
 import taewoo_image from "../../images/member_photo/taewoo.png";
 import hyeyeon_image from "../../images/member_photo/hyeyeon.png";
 import junyeop_image from "../../images/member_photo/junyeop.jpg";
+import yunjeong_image from "../../images/member_photo/yunjeong.png";
+import yunji_image from "../../images/member_photo/Yunji.png";
 
 import "./People.scss";
 
@@ -84,30 +86,6 @@ function People() {
       <h3>Master Students</h3>
       <ul className="people_list">
         <li>
-          <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} alt="jaeyoung_image" /></a>
-          <div className="name kr">최재영</div>
-          <div className="name">Jae Young, Choi</div>
-          <div className="role">Master Student</div>
-          <div className="email">
-            jaeyoungchoi@kaist.ac.kr
-          </div>
-          <div className="website">
-            <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer">website</a>
-          </div>
-        </li>
-        <li>
-          <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer"><img src={hyunlee_image} alt="hyun_image" /></a>
-          <div className="name kr">이현</div>
-          <div className="name">Hyun, Lee</div>
-          <div className="role">Master Student</div>
-          <div className="email">
-            hyunini0408@kaist.ac.kr
-          </div>
-          <div className="website">
-            <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer">website</a>
-          </div>
-        </li>
-        <li>
           <a href="https://jaeryungchung.github.io" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} alt="jaeryung_image" /></a>
           <div className="name kr">정재령 </div>
           <div className="name">Jaeryung, Chung</div>
@@ -152,13 +130,31 @@ function People() {
             <a href="https://www.hyeyeonseo.com/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
+        <li>
+          <a><img src={yunjeong_image} alt="yunjunglee_image" /></a>
+          <div className="name kr">이윤정</div>
+          <div className="name">Yunjung, Lee</div>
+          <div className="role">Master Student</div>
+          <div className="email">
+            yunjunglee@kaist.ac.kr
+          </div>
+        </li>
+        <li>
+          <a><img src={yunji_image} alt="yunjison_image" /></a>
+          <div className="name kr">손윤지</div>
+          <div className="name">Yunji, Son</div>
+          <div className="role">Master Student</div>
+          <div className="email">
+            syunji@kaist.ac.kr
+          </div>
+        </li>
       </ul>
 
       <h3>Undergraduate Interns</h3>
       <ul className="people_list">
         <li>
           <a><img src={jungwonpark_image} alt="jungwonpark_image" /></a>
-          <div className="name kr">박정원</div>g
+          <div className="name kr">박정원</div>
           <div className="name">Jung Won Park</div>
           <div className="role">Intern
           </div>
@@ -235,6 +231,28 @@ function People() {
           <div className="name">Jin, Jeong</div>
           <div className="role">MSc. 2025<br />
             Military Duty
+          </div>
+        </li>
+        <li>
+          <img src={jaeyoungchoi_image} alt="jaeyoung_image" />
+          <div className="name kr">최재영</div>
+          <div className="name">Jae Young, Choi</div>
+          <div className="role">MSc. 2026<br />
+            PhD Student @ Texas A&M
+          </div>
+          <div className="website">
+            <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer">website</a>
+          </div>
+        </li>
+        <li>
+          <img src={hyunlee_image} alt="hyun_image" />
+          <div className="name kr">이현</div>
+          <div className="name">Hyun, Lee</div>
+          <div className="role">MSc. 2026<br />
+            Intern @ Karrot
+          </div>
+          <div className="website">
+            <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer">website</a>
           </div>
         </li>
       </ul>

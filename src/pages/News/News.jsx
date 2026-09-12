@@ -3,7 +3,6 @@ import "./News.scss";
 import { Link } from "react-router-dom";
 import statImg from "../Project/STAT/STAT_Cover.jpg";
 import megagonImg from "../../images/news_images/sgkim_megagon_internship.jpg";
-import maldoImg1 from "../../images/lab_photo_resize/20260510_1.jpg";
 import maldoImg2 from "../../images/lab_photo_resize/20260510_2.jpg";
 import foundgenPdf from "../../images/news_images/foundgen-2026-poster.pdf";
 import skulptImg from "../../images/project_photo/skulpt.jpeg";
@@ -100,7 +99,6 @@ function News() {
               <td>
                 <div>The AI Experience Lab held its annual retreat at <b>Maldo Island</b>, enjoying team-building activities, fishing, and discussions on future research directions.</div>
                 <div className="newsImages">
-                  <img src={maldoImg1} alt="Maldo Island Retreat 1" />
                   <img src={maldoImg2} alt="Maldo Island Retreat 2" />
                 </div>
               </td>
