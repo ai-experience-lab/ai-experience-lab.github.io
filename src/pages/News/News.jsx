@@ -20,6 +20,36 @@ function News() {
         <table className="newsTable">
           <tbody>
             <tr>
+              <td className="newsDate">Oct. 2026</td>
+              <td>
+                Two works from our lab were accepted to <b>NeurIPS 2026</b>:
+                <ul style={{ margin: "6px 0 0 18px", padding: 0 }}>
+                  <li style={{ marginBottom: "4px" }}>
+                    Our work investigating how people interpret <b>multi-agent coordination</b> received two workshop paper acceptances:
+                    <ul style={{ margin: "4px 0 0 18px", padding: 0 }}>
+                      <li style={{ marginBottom: "4px" }}>
+                        <i>"Human-Grounded Representations for Neuro-Symbolic Monitoring of Multi-Agent Coordination"</i>, accepted to the <a href="https://nemo.semantic.review/" target="_blank" rel="noreferrer"><b>NEmo Workshop</b></a>.
+                      </li>
+                      <li>
+                        <i>"Same Behavior, Different Feedback: Interpreting Multi-Agent Coordination Beyond Performance Metrics"</i>, accepted to the <a href="https://iab-agents.github.io/" target="_blank" rel="noreferrer"><b>1st Workshop on Interpreting Agent Behavior (IAB)</b></a>.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/k8-NVI_kL6A" target="_blank" rel="noreferrer"><i>"Transcendent Contact: Expanding Creative Agency Through Hallucination"</i></a>, an extension of a <b>Design Project 1</b> course project, was selected for the <b>Creative AI Track</b> and will be exhibited at NeurIPS 2026. <a href="https://transcendentcontact.vercel.app/" target="_blank" rel="noreferrer"><b>View the book</b></a>.
+                    <div className="newsEmbed">
+                      <iframe
+                        src="https://www.youtube-nocookie.com/embed/k8-NVI_kL6A"
+                        title="Transcendent Contact: Expanding Creative Agency Through Hallucination"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
               <td className="newsDate">Sep. 2026</td>
               <td>
                 We welcome <b>Yoonjung Lee</b> (Korea University, Industrial Design) and <b>Yoonji Son</b> (Ewha Womans University, AX) to the AI Experience Lab as new M.S. students.

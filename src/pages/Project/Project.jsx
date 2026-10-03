@@ -16,6 +16,7 @@ import IDS from "./IDS/IDS";
 import Maehwasoo from "./Maehwasoo/Maehwasoo";
 import Korail from "./Korail/Korail";
 import STAT from "./STAT/STAT";
+import MultiAgentCoordination from "./MultiAgentCoordination/MultiAgentCoordination";
 
 import "./Project.scss";
 
@@ -38,6 +39,7 @@ function Project() {
         "Korail": <Korail/>,
         "Maehwasoo": <Maehwasoo/>,
         "STAT": <STAT/>,
+        "MultiAgentCoordination": <MultiAgentCoordination/>,
     }
     const props = pageProps[pid] || <div className="Project">Project not found</div>;
     return (

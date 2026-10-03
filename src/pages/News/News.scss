@@ -89,6 +89,19 @@
                 }
             }
 
+            .newsEmbed {
+                width: min(560px, 100%);
+                aspect-ratio: 16 / 9;
+                margin-top: 12px;
+
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                    border-radius: 6px;
+                }
+            }
+
             .pdfBtn {
                 display: inline-block;
                 margin-left: 8px;

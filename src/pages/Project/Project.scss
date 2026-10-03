@@ -81,6 +81,10 @@
             }
             .links {
                 margin-top: 1.5rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
                 a {
                     background:#eee;
                     padding:8px 20px;
@@ -129,6 +133,31 @@
                     border-radius: 8px;
                 }
                 
+            }
+            .chartImages {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 1.5rem;
+                margin: 4rem 0;
+
+                .ImageBox {
+                    margin: 0;
+                }
+
+                .ImageBox:last-child {
+                    grid-column: 1 / -1;
+                    width: calc(50% - 0.75rem);
+                    justify-self: center;
+                }
+
+                @media (max-width: 700px) {
+                    grid-template-columns: 1fr;
+
+                    .ImageBox:last-child {
+                        grid-column: auto;
+                        width: 100%;
+                    }
+                }
             }
             .halfColumn {
                 width: 50%;

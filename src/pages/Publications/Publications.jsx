@@ -21,6 +21,48 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
+                <a href="https://nemo.semantic.review/" target="_blank" rel="noreferrer">
+                  Human-Grounded Representations for Neuro-Symbolic Monitoring of Multi-Agent Coordination
+                </a>
+              </div>
+              <div className="description">
+                NEmo Workshop @ NeurIPS 2026
+              </div>
+              <div className="authors">
+                <em>Kyungyoon Jung</em> and <em>Donggun Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://iab-agents.github.io/" target="_blank" rel="noreferrer">
+                  Same Behavior, Different Feedback: Interpreting Multi-Agent Coordination Beyond Performance Metrics
+                </a>
+              </div>
+              <div className="description">
+                1st Workshop on Interpreting Agent Behavior (IAB) @ NeurIPS 2026
+              </div>
+              <div className="authors">
+                <em>Kyungyoon Jung</em> and <em>Donggun Lee</em>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
+                <a href="https://youtu.be/k8-NVI_kL6A" target="_blank" rel="noreferrer">
+                  Transcendent Contact: Expanding Creative Agency Through Hallucination
+                </a>
+              </div>
+              <div className="description">
+                Creative AI Track @ NeurIPS 2026
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bib-item">
+              <div className="title">
                 DioramaCraft: A Human-AI Workflow for Transforming Personal Photographs into Layered Paper Theater Dioramas
               </div>
               <div className="description">

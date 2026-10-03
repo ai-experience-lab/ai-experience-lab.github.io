@@ -15,6 +15,7 @@ import histochat from "../../images/project_photo/histochat-square2.png";
 import wrighthere from "../../images/project_photo/wrighthere.png";
 import LIGS from "../../images/project_photo/LIGS.png";
 import stat_cover from "../../images/project_photo/stat_cover.jpg";
+import multiAgentCoordination from "../../images/project_photo/multi-agent-coordination.png";
 
 
 import "./Projects.scss";
@@ -30,6 +31,18 @@ function Projects() {
       {/*  CURRENT PROJECTS ------------------------------------------------------------------------ */}
       <h3>Current Projects</h3>
       <ul className="projectList">
+        <li className="project">
+          <div className="image">
+            <a href="#/project/MultiAgentCoordination">
+              <img src={multiAgentCoordination} alt="Interpreting Multi-Agent Coordination" />
+            </a>
+          </div>
+          <div className="title">
+            <a href="#/project/MultiAgentCoordination">Interpreting Multi-Agent Coordination Beyond Performance Metrics</a>
+            <span className="time"><b>Research</b> &middot; NeurIPS 2026 Workshops</span>
+          </div>
+        </li>
+
         <li className="project">
           <div className="image">
             <a href="#/project/STAT">
