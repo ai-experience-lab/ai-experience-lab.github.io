@@ -52,6 +52,18 @@ function News() {
             <tr>
               <td className="newsDate">Sep. 2026</td>
               <td>
+                Our poster <i>"DioramaCraft: A Human-AI Workflow for Transforming Personal Photographs into Layered Paper Theater Dioramas"</i> was accepted to <b>UIST 2026</b>.
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">Sep. 2026</td>
+              <td>
+                <b>Hyewon Lee</b>'s Undergraduate Graduation Research project, <i>"Hangulo: Demonstrating Workflow-Embedded AI Support for Korean Lettering Implementation"</i>, was presented as a poster at <b>UIST 2026</b>.
+              </td>
+            </tr>
+            <tr>
+              <td className="newsDate">Sep. 2026</td>
+              <td>
                 We welcome <b>Yoonjung Lee</b> (Korea University, Industrial Design) and <b>Yoonji Son</b> (Ewha Womans University, AX) to the AI Experience Lab as new M.S. students.
               </td>
             </tr>

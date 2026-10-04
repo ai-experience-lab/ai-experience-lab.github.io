@@ -68,6 +68,14 @@ ul.publicationList {
                     font-style: normal;
                     color: #999;
                 }
+                a {
+                    color: inherit;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
             }
 
             .description {

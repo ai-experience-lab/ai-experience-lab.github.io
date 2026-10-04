@@ -41,6 +41,7 @@ function Courses() {
               <img src={dioramacraft} alt="" />
               <div className="project_description">
                 <b>Diorama Craft</b> is an AI-powered design tool that transforms personal memories into buildable paper dioramas. By combining text and photographs, the system automatically reconstructs memorable scenes into layered designs for physical assembly while keeping user interaction simple with optional depth control. Through iterative prototyping, the project demonstrates how generative AI can bridge digital memory reconstruction and tangible craft.
+                <br /><i>Published as a poster @ UIST 2026.</i>
                 <br /><a href="https://drive.google.com/file/d/1xw8RqZn3FeRPGrzVshLkIzUvHsHyo2v7/view?usp=drive_link" target="_blank"> Milestone Presentation</a>
               </div>
             </div>
@@ -55,6 +56,7 @@ function Courses() {
               <img src={saw} alt="" />
               <div className="project_description">
                 <b>The Transcendent Contact exhibition</b> (organized by the Saw Art Museum in New Caledonia) is a conceptual project that challenges the traditional perception of reality and explores the role of artificial intelligence (AI). While presented as a museum exhibition, the project reveals that it is entirely fabricated using generative AI.
+                <br /><i>Published as an AI Creativity Track paper @ NeurIPS 2026.</i>
                 <br /><a href="https://drive.google.com/file/d/13QbDJ_yDucJBlNCey0VnPmIkvh5oXev6/view?usp=drive_link" target="_blank"> Milestone Presentation</a>
               </div>
             </div>

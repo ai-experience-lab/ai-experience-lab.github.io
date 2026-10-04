@@ -21,7 +21,7 @@ function Publications() {
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://nemo.semantic.review/" target="_blank" rel="noreferrer">
+                <a href="https://openreview.net/forum?id=h8ykpkojQt" target="_blank" rel="noreferrer">
                   Human-Grounded Representations for Neuro-Symbolic Monitoring of Multi-Agent Coordination
                 </a>
               </div>
@@ -29,14 +29,14 @@ function Publications() {
                 NEmo Workshop @ NeurIPS 2026
               </div>
               <div className="authors">
-                <em>Kyungyoon Jung</em> and <em>Donggun Lee</em>
+                <em><a href="https://openreview.net/profile?id=~Donggun_Lee4" target="_blank" rel="noreferrer">Donggun Lee</a></em>, <a href="https://openreview.net/profile?id=~Kyungyoon_Jung1" target="_blank" rel="noreferrer">Kyungyoon Jung</a>, <em><a href="https://openreview.net/profile?id=~Hyun_Seung_Moon1" target="_blank" rel="noreferrer">Hyun Seung Moon</a></em>, <em><a href="https://openreview.net/profile?id=~Jaywoong_Jeong1" target="_blank" rel="noreferrer">Jaywoong Jeong</a></em>, <a href="https://openreview.net/profile?id=~Eunji_Shin2" target="_blank" rel="noreferrer">Eunji Shin</a>, <em><a href="https://openreview.net/profile?id=~Seon_Gyeom_Kim1" target="_blank" rel="noreferrer">Seon Gyeom Kim</a></em>, <a href="https://openreview.net/profile?id=~SeongWon_Hong1" target="_blank" rel="noreferrer">SeongWon Hong</a>, <a href="https://openreview.net/profile?id=~Juho_Kim2" target="_blank" rel="noreferrer">Juho Kim</a>, and <em><a href="https://openreview.net/profile?id=~Tak_Yeon_Lee1" target="_blank" rel="noreferrer">Tak Yeon Lee</a></em>
               </div>
             </div>
           </li>
           <li>
             <div className="bib-item">
               <div className="title">
-                <a href="https://iab-agents.github.io/" target="_blank" rel="noreferrer">
+                <a href="https://openreview.net/forum?id=k47c8eDKsd" target="_blank" rel="noreferrer">
                   Same Behavior, Different Feedback: Interpreting Multi-Agent Coordination Beyond Performance Metrics
                 </a>
               </div>
@@ -44,7 +44,7 @@ function Publications() {
                 1st Workshop on Interpreting Agent Behavior (IAB) @ NeurIPS 2026
               </div>
               <div className="authors">
-                <em>Kyungyoon Jung</em> and <em>Donggun Lee</em>
+                <a href="https://openreview.net/profile?id=~Kyungyoon_Jung1" target="_blank" rel="noreferrer">Kyungyoon Jung</a>, <em><a href="https://openreview.net/profile?id=~Donggun_Lee4" target="_blank" rel="noreferrer">Donggun Lee</a></em>, <em><a href="https://openreview.net/profile?id=~Hyun_Seung_Moon1" target="_blank" rel="noreferrer">Hyun Seung Moon</a></em>, <a href="https://openreview.net/profile?id=~Eunji_Shin2" target="_blank" rel="noreferrer">Eunji Shin</a>, <em><a href="https://openreview.net/profile?id=~Seon_Gyeom_Kim1" target="_blank" rel="noreferrer">Seon Gyeom Kim</a></em>, <a href="https://openreview.net/profile?id=~SeongWon_Hong1" target="_blank" rel="noreferrer">SeongWon Hong</a>, <a href="https://openreview.net/profile?id=~Juho_Kim2" target="_blank" rel="noreferrer">Juho Kim</a>, and <em><a href="https://openreview.net/profile?id=~Tak_Yeon_Lee1" target="_blank" rel="noreferrer">Tak Yeon Lee</a></em>
               </div>
             </div>
           </li>
@@ -57,6 +57,9 @@ function Publications() {
               </div>
               <div className="description">
                 Creative AI Track @ NeurIPS 2026
+              </div>
+              <div className="authors">
+                <em><a href="https://openreview.net/profile?id=~Hyeyeon_Seo1" target="_blank" rel="noreferrer">Hyeyeon Seo</a></em>, <a href="https://openreview.net/profile?id=~Tae-Hyun_Lee1" target="_blank" rel="noreferrer">Tae-Hyun Lee</a>, <a href="https://openreview.net/profile?id=~Haeri_Kim2" target="_blank" rel="noreferrer">Haeri Kim</a>, <a href="https://openreview.net/profile?id=~Minhyeok_Seo1" target="_blank" rel="noreferrer">Minhyeok Seo</a>, and <em><a href="https://openreview.net/profile?id=~Tak_Yeon_Lee1" target="_blank" rel="noreferrer">Tak Yeon Lee</a></em>
               </div>
             </div>
           </li>
